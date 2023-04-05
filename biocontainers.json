@@ -40,7 +40,7 @@
             "high-dimensional medians in Python3"
         ]
     },
-    "progressiveCactus": {
+    "progressivecactus": {
         "tags": [
             "Genomics"
         ],
@@ -70,14 +70,14 @@
     },
     "cycle": {
         "tags": [
-            "uitoolkit::wxwidgets",
-            ":x11",
-            ":application",
-            "interface::graphical",
-            "implemented-in::python",
             "role::program",
+            "implemented-in::python",
+            "uitoolkit::wxwidgets",
             "field::medicine",
-            "use::timekeeping"
+            "interface::graphical",
+            ":application",
+            "use::timekeeping",
+            ":x11"
         ],
         "summary": [
             "calendar program for women"
@@ -105,8 +105,8 @@
             ""
         ],
         "summary": [
-            "Next Generation Sequencing language Bindings (Python3 bindings)",
-            "Next Generation Sequencing language Bindings (Python bindings)"
+            "Next Generation Sequencing language Bindings (Python bindings)",
+            "Next Generation Sequencing language Bindings (Python3 bindings)"
         ]
     },
     "eigensoft": {
@@ -143,23 +143,23 @@
     },
     "ncbi-tools-bin": {
         "tags": [
-            ":calculating",
-            ":c",
             "biology::peptidic",
-            ":plaintext",
-            "interface::commandline",
-            "role::program",
             ":searching",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":calculating",
             ":xml",
+            "role::program",
             "scope::utility",
             ":biological-sequence",
-            ":converting",
+            ":c",
+            ":plaintext",
+            "field::biology:bioinformatics",
             ":analysing",
-            "science::calculation",
+            ":converting",
+            "field::biology",
             ":http",
-            "network::client"
+            "network::client",
+            "science::calculation",
+            "interface::commandline"
         ],
         "summary": [
             "NCBI libraries for biology applications (text-based utilities)"
@@ -189,7 +189,7 @@
             "software for Pacific Biosciences sequencing data -- Python utilities"
         ]
     },
-    "GeneOCR API": {
+    "geneocr api": {
         "tags": [],
         "summary": [
             "API of geneocr tool, which reads gene names in images"
@@ -197,12 +197,12 @@
     },
     "reapr": {
         "tags": [
-            "interface::commandline",
             "role::program",
+            ":biological-sequence",
             ":c++",
             "field::biology:bioinformatics",
             "field::biology",
-            ":biological-sequence",
+            "interface::commandline",
             "biology::nucleic-acids"
         ],
         "summary": [
@@ -251,11 +251,11 @@
     },
     "populations": {
         "tags": [
-            ":application",
-            "interface::graphical",
-            "uitoolkit::qt",
             "role::program",
-            "interface::x11"
+            "uitoolkit::qt",
+            "interface::graphical",
+            "interface::x11",
+            ":application"
         ],
         "summary": [
             "population genetic software"
@@ -269,7 +269,7 @@
             "resequencing utility that can assemble consensus sequence of genomes"
         ]
     },
-    "NCBI BLAST+": {
+    "ncbi blast+": {
         "tags": [
             "Genomics"
         ],
@@ -288,18 +288,18 @@
     "cogent": {
         "tags": [
             "biology::peptidic",
-            "use::comparing",
-            "devel::lang:python",
-            ":commandline",
-            ":biology:bioinformatics",
-            ":comparing",
-            ":python",
+            "use::analysing",
             "devel::library",
+            "use::comparing",
             "role::devel-lib",
+            ":commandline",
             "implemented-in::python",
             "role::program",
+            ":biology:bioinformatics",
             "field::biology",
-            "use::analysing"
+            ":python",
+            ":comparing",
+            "devel::lang:python"
         ],
         "summary": [
             "framework for genomic biology"
@@ -363,19 +363,19 @@
     },
     "ctsim": {
         "tags": [
-            ":graphical",
-            "field::medicine:imaging",
+            "interface::3d",
+            ":3dmodel",
+            "x11::application",
             ":commandline",
+            ":program",
             ":x11",
             "uitoolkit::wxwidgets",
-            "scope::application",
-            "x11::application",
-            ":3dmodel",
-            "use::viewing",
-            ":program",
             "field::medicine",
+            "use::viewing",
+            ":graphical",
             "field::biology",
-            "interface::3d"
+            "scope::application",
+            "field::medicine:imaging"
         ],
         "summary": [
             "Computed tomography simulator"
@@ -391,16 +391,16 @@
     },
     "autodock": {
         "tags": [
-            "implemented-in::c",
-            ":TODO",
-            ":commandline",
-            "works-with::TODO",
-            "role::program",
-            "field::biology",
-            "scope::utility",
             "use::analysing",
+            "role::program",
+            ":commandline",
+            "scope::utility",
+            ":TODO",
+            "works-with::TODO",
+            "works-with::3dmodel",
+            "implemented-in::c",
             "field::biology:structural",
-            "works-with::3dmodel"
+            "field::biology"
         ],
         "summary": [
             "analysis of ligand binding to protein structure"
@@ -431,12 +431,12 @@
     "pbsim": {
         "tags": [
             "role::program",
+            ":biological-sequence",
             ":c++",
             "field::biology:bioinformatics",
+            "use::simulating",
             "field::biology",
-            ":biological-sequence",
-            "biology::nucleic-acids",
-            "use::simulating"
+            "biology::nucleic-acids"
         ],
         "summary": [
             "simulator for PacBio sequencing reads"
@@ -444,12 +444,12 @@
     },
     "qrisk2": {
         "tags": [
-            ":checking",
             "x11::application",
-            "interface::graphical",
             "role::program",
             "field::medicine",
-            "interface::x11"
+            "interface::graphical",
+            "interface::x11",
+            ":checking"
         ],
         "summary": [
             "cardiovascular disease risk calculator"
@@ -460,9 +460,9 @@
             ""
         ],
         "summary": [
+            "helper scripts for Variant Call Format (VCF) parser",
             "Variant Call Format (VCF) parser for Python 3",
-            "Variant Call Format (VCF) parser for Python",
-            "helper scripts for Variant Call Format (VCF) parser"
+            "Variant Call Format (VCF) parser for Python"
         ]
     },
     "vtk-dicom-tools": {
@@ -475,14 +475,14 @@
     },
     "dcmtk": {
         "tags": [
-            ":image:raster",
             "works-with::image",
-            "protocol::ssl",
-            "interface::commandline",
             "role::program",
-            ":downloading",
             "scope::utility",
-            ":converting"
+            "protocol::ssl",
+            ":converting",
+            ":image:raster",
+            "interface::commandline",
+            ":downloading"
         ],
         "summary": [
             "OFFIS DICOM toolkit command line utilities"
@@ -586,16 +586,16 @@
     },
     "bwa": {
         "tags": [
+            "biology::peptidic",
+            "use::analysing",
+            ":program",
             "interface::text-mode",
             ":c",
-            "biology::peptidic",
-            "use::comparing",
-            "interface::commandline",
-            "Genomics",
-            ":program",
             "field::biology:bioinformatics",
             "field::biology",
-            "use::analysing"
+            "Genomics",
+            "use::comparing",
+            "interface::commandline"
         ],
         "summary": [
             "Burrow-Wheeler Aligner for pairwise alignment between DNA sequences",
@@ -615,8 +615,8 @@
             ""
         ],
         "summary": [
-            "Python plotting area-proportional two- and three-way Venn diagrams",
-            "Python 3 plotting area-proportional two- and three-way Venn diagrams"
+            "Python 3 plotting area-proportional two- and three-way Venn diagrams",
+            "Python plotting area-proportional two- and three-way Venn diagrams"
         ]
     },
     "clonalframeml": {
@@ -651,18 +651,18 @@
     },
     "mafft": {
         "tags": [
-            "implemented-in::c",
             "biology::peptidic",
-            "use::comparing",
+            "role::program",
             ":commandline",
-            "works-with::biological-sequence",
+            "scope::utility",
             ":biology:bioinformatics",
             ":plaintext",
-            "biology::format:aln",
-            "role::program",
-            "Genomics",
+            "implemented-in::c",
             "field::biology",
-            "scope::utility"
+            "Genomics",
+            "use::comparing",
+            "works-with::biological-sequence",
+            "biology::format:aln"
         ],
         "summary": [
             "Multiple alignment program for amino acid or nucleotide sequences"
@@ -678,12 +678,12 @@
     },
     "berkeley-express": {
         "tags": [
-            "interface::commandline",
             "role::program",
+            ":biological-sequence",
             ":c++",
             "field::biology:bioinformatics",
             "field::biology",
-            ":biological-sequence",
+            "interface::commandline",
             "biology::nucleic-acids"
         ],
         "summary": [
@@ -706,7 +706,7 @@
             "Gives your Python tools a CTD-compatible interface"
         ]
     },
-    "SearchGUI": {
+    "searchgui": {
         "tags": [
             "Proteomics"
         ],
@@ -770,8 +770,9 @@
             "A collection of Web Service Clients to consume EBI Bioinfomatics tools"
         ]
     },
-    "FASTX-Toolkit": {
+    "fastx-toolkit": {
         "tags": [
+            "role::program",
             "Genomics"
         ],
         "summary": []
@@ -838,18 +839,18 @@
     },
     "glam2": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            ":plaintext",
-            "works-with-format::TODO",
-            "works-with::TODO",
-            ":comparing",
-            "role::program",
+            "use::analysing",
             ":searching",
-            "field::biology:bioinformatics",
-            "field::biology",
+            "role::program",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            "works-with::TODO",
+            ":plaintext",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "works-with-format::TODO",
+            "field::biology",
+            ":comparing"
         ],
         "summary": [
             "gapped protein motifs from unaligned sequences"
@@ -863,7 +864,7 @@
             "maximum likelihood ancestral amino-acid sequence reconstruction"
         ]
     },
-    "Percolator": {
+    "percolator": {
         "tags": [
             "Proteomics"
         ],
@@ -873,19 +874,19 @@
     },
     "embassy-domainatrix": {
         "tags": [
-            "implemented-in::c",
-            ":TODO",
-            ":commandline",
-            "suite::TODO",
-            ":plaintext",
-            "works-with::TODO",
-            ":editing",
-            "role::program",
             ":searching",
-            "field::biology:bioinformatics",
-            "field::biology",
+            "role::program",
+            ":commandline",
             "scope::utility",
+            ":editing",
+            ":TODO",
+            "works-with::TODO",
+            ":plaintext",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
             ":converting",
+            "field::biology",
+            "suite::TODO",
             ":analysing"
         ],
         "summary": [
@@ -926,13 +927,13 @@
     },
     "amide": {
         "tags": [
-            "field::medicine:imaging",
-            "uitoolkit::gtk",
-            ":x11",
             "x11::application",
-            "interface::graphical",
             "role::program",
-            "field::medicine"
+            "field::medicine",
+            "field::medicine:imaging",
+            "interface::graphical",
+            "uitoolkit::gtk",
+            ":x11"
         ],
         "summary": [
             "software for Medical Imaging"
@@ -948,19 +949,19 @@
     },
     "epigrass": {
         "tags": [
-            ":TODO",
-            ":x11",
             ":db",
-            "scope::application",
-            "works-with-format::TODO",
             "x11::application",
-            "interface::graphical",
-            "uitoolkit::qt",
-            "implemented-in::python",
             "role::program",
+            ":TODO",
+            "implemented-in::python",
+            "uitoolkit::qt",
             "field::medicine",
+            "interface::graphical",
             ":viewing",
-            ":analysing"
+            "works-with-format::TODO",
+            "scope::application",
+            ":analysing",
+            ":x11"
         ],
         "summary": [
             "scientific tool for simulations and scenario analysis in network epidemiology"
@@ -968,16 +969,16 @@
     },
     "aragorn": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            "works-with-format::plaintext",
-            "role::program",
+            "use::analysing",
             ":searching",
-            "field::biology:bioinformatics",
-            "field::biology",
+            "role::program",
+            ":commandline",
             "scope::utility",
             ":biological-sequence",
-            "use::analysing"
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
+            "works-with-format::plaintext"
         ],
         "summary": [
             "tRNA and tmRNA detection in nucleotide sequences"
@@ -985,18 +986,18 @@
     },
     "opencfu": {
         "tags": [
-            ":graphical",
-            "field::medicine:imaging",
-            "uitoolkit::gtk",
-            ":x11",
-            ":measuring",
-            ":application",
             "role::program",
-            "field::medicine",
-            ":viewing",
-            "field::biology",
             ":learning",
-            ":analysing"
+            "field::medicine",
+            "field::medicine:imaging",
+            ":measuring",
+            ":viewing",
+            ":application",
+            ":graphical",
+            "field::biology",
+            ":analysing",
+            "uitoolkit::gtk",
+            ":x11"
         ],
         "summary": [
             "count cell colonies (CFUs) on agar plates by processing digital pictures"
@@ -1020,14 +1021,14 @@
     },
     "aghermann": {
         "tags": [
-            "uitoolkit::gtk",
+            "use::analysing",
+            ":gtk",
             "x11::application",
-            "interface::graphical",
             "role::program",
             "field::medicine",
-            ":gtk",
-            "use::analysing",
-            "interface::x11"
+            "interface::graphical",
+            "interface::x11",
+            "uitoolkit::gtk"
         ],
         "summary": [
             "Sleep-research experiment manager"
@@ -1043,16 +1044,16 @@
     },
     "autodock-test": {
         "tags": [
-            ":dictionary",
+            "use::checking",
             "made-of::TODO",
             "role::app-data",
+            "use::TODO",
             ":app-data",
             ":checking",
-            "role::TODO",
-            "use::TODO",
-            "use::checking",
+            "field::biology:structural",
             "field::biology",
-            "field::biology:structural"
+            "role::TODO",
+            ":dictionary"
         ],
         "summary": [
             "test files for AutoDock"
@@ -1066,10 +1067,10 @@
             "quality control of genomic sequences"
         ]
     },
-    "PeptideShaker": {
+    "peptideshaker": {
         "tags": [
-            "biotools",
-            "Proteomics"
+            "Proteomics",
+            "biotools"
         ],
         "summary": [
             "interpretation of proteomics identification results"
@@ -1123,11 +1124,11 @@
     },
     "sofa-apps": {
         "tags": [
-            ":qt",
             "x11::application",
-            "interface::graphical",
             "role::program",
+            ":qt",
             "field::medicine",
+            "interface::graphical",
             "interface::x11",
             "use::simulating"
         ],
@@ -1137,13 +1138,13 @@
     },
     "squizz": {
         "tags": [
-            ":commandline",
-            "implemented-in::c++",
-            "use::converting",
             "role::program",
+            ":commandline",
+            "scope::utility",
+            "implemented-in::c++",
             "field::biology:bioinformatics",
             "field::biology",
-            "scope::utility"
+            "use::converting"
         ],
         "summary": [
             "Converter for genetic sequences and alignments"
@@ -1192,17 +1193,17 @@
     },
     "dialign": {
         "tags": [
-            "implemented-in::c",
             "biology::peptidic",
+            "use::analysing",
+            "role::program",
             ":commandline",
+            "scope::utility",
             ":biology:bioinformatics",
-            "biology::format:aln",
+            "implemented-in::c",
+            "field::biology",
             ":comparing",
             "works-with-format::plaintext",
-            "role::program",
-            "field::biology",
-            "scope::utility",
-            "use::analysing"
+            "biology::format:aln"
         ],
         "summary": [
             "Segment-based multiple sequence alignment"
@@ -1248,7 +1249,7 @@
             "alternative basecaller for MinION reads of genomic sequences"
         ]
     },
-    "Picard": {
+    "picard": {
         "tags": [
             "Genomics"
         ],
@@ -1323,8 +1324,8 @@
     },
     "vcftools": {
         "tags": [
-            "Genomics",
-            "role::program"
+            "role::program",
+            "Genomics"
         ],
         "summary": [
             "Collection of tools to work with VCF files",
@@ -1341,18 +1342,12 @@
     },
     "stacks": {
         "tags": [
-            ""
-        ],
-        "summary": [
-            "pipeline for building loci from short-read DNA sequences"
-        ]
-    },
-    "Stacks": {
-        "tags": [
+            "",
             "Genomics"
         ],
         "summary": [
-            "Stacks was developed to work with restriction enzyme-based data, such as RAD-seq, for the purpose of building genetic maps and conducting population"
+            "Stacks was developed to work with restriction enzyme-based data, such as RAD-seq, for the purpose of building genetic maps and conducting population",
+            "pipeline for building loci from short-read DNA sequences"
         ]
     },
     "sofa-tutorials": {
@@ -1406,13 +1401,13 @@
     "cobra": {
         "tags": [
             "",
-            "implemented-in::python",
             "science::modelling",
-            "field::biology"
+            "field::biology",
+            "implemented-in::python"
         ],
         "summary": [
-            "constraint-based modeling of biological networks (Python 2)",
             "constraint-based modeling of biological networks with Python 3",
+            "constraint-based modeling of biological networks (Python 2)",
             "constraint-based modeling of biological networks (Python 3)"
         ]
     },
@@ -1434,14 +1429,14 @@
     },
     "wise": {
         "tags": [
-            "implemented-in::c",
-            "use::comparing",
-            ":TODO",
-            ":commandline",
             "role::program",
+            ":commandline",
+            "scope::utility",
+            ":TODO",
             "field::biology:bioinformatics",
+            "implemented-in::c",
             "field::biology",
-            "scope::utility"
+            "use::comparing"
         ],
         "summary": [
             "comparison of biopolymers, like DNA and protein sequences"
@@ -1449,8 +1444,8 @@
     },
     "cpat": {
         "tags": [
-            "rna",
             "field::biology:bioinformatics",
+            "rna",
             "field::biology"
         ],
         "summary": [
@@ -1459,54 +1454,46 @@
     },
     "hunspell-en-med": {
         "tags": [
-            "role::app-data",
-            ":checking",
             "role::program",
-            "field::medicine",
-            "made-of::dictionary",
             "use::checking",
+            "role::app-data",
+            ":learning",
+            "field::medicine",
+            ":checking",
             "use::learning",
-            ":learning"
+            "made-of::dictionary"
         ],
         "summary": [
             "English medical dictionary for hunspell"
         ]
     },
-    "Samtools": {
-        "tags": [
-            "Genomics"
-        ],
-        "summary": [
-            "Tools for manipulating next-generation sequencing data"
-        ]
-    },
     "samtools": {
         "tags": [
-            ":calculating",
-            "implemented-in::c",
-            "works-with::biological-sequence",
-            ":commandline",
-            ":filtering",
             "use::analysing",
-            ":program",
-            "Genomics",
-            "field::biology:bioinformatics",
-            "field::biology",
-            "uitoolkit::ncurses",
-            "scope::utility",
+            ":calculating",
             "protocol::ftp",
+            ":commandline",
+            "scope::utility",
+            ":program",
+            "uitoolkit::ncurses",
             "protocol::http",
-            "network::client"
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
+            "Genomics",
+            "network::client",
+            "works-with::biological-sequence",
+            ":filtering"
         ],
         "summary": [
             "Tools for manipulating next-generation sequencing data",
             "processing sequence alignments in SAM, BAM and CRAM formats"
         ]
     },
-    "MitoHiFi": {
+    "mitohifi": {
         "tags": [
-            "MT",
             "organelle",
+            "MT",
             "mitogenome"
         ],
         "summary": [
@@ -1548,9 +1535,9 @@
     },
     "eido": {
         "tags": [
-            "metadata",
+            "PEP",
             "validation",
-            "PEP"
+            "metadata"
         ],
         "summary": [
             "An open source tool used to validate and convert PEP format sample metadata against a schema."
@@ -1590,14 +1577,14 @@
     },
     "poa": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            ":plaintext",
-            "works-with::TODO",
             "role::program",
+            ":commandline",
+            "scope::utility",
+            "works-with::TODO",
+            ":plaintext",
             "field::biology:bioinformatics",
-            "field::biology",
-            "scope::utility"
+            "implemented-in::c",
+            "field::biology"
         ],
         "summary": [
             "Partial Order Alignment for multiple sequence alignment"
@@ -1605,9 +1592,9 @@
     },
     "dialign-tx-data": {
         "tags": [
-            ":app-data",
             "made-of::TODO",
             "field::biology:bioinformatics",
+            ":app-data",
             "field::biology"
         ],
         "summary": [
@@ -1640,26 +1627,26 @@
     },
     "clustalx": {
         "tags": [
-            ":viewing",
-            "biology::peptidic",
-            ":biology:bioinformatics",
-            "interface::graphical",
-            "uitoolkit::qt",
-            "role::program",
-            "field::biology",
-            ":analysing",
-            ":graphical",
-            "implemented-in::c",
-            ":commandline",
-            ":x11",
-            ":plaintext",
-            "biology::format:aln",
-            ":comparing",
-            ":program",
-            "works-with::TODO",
             "x11::application",
+            ":commandline",
+            "works-with::TODO",
+            ":plaintext",
+            "interface::graphical",
+            ":viewing",
+            "implemented-in::c",
+            "field::biology",
+            ":x11",
+            "uitoolkit::motif",
+            ":program",
+            ":analysing",
+            "biology::peptidic",
+            "role::program",
             "scope::utility",
-            "uitoolkit::motif"
+            ":comparing",
+            "biology::format:aln",
+            "uitoolkit::qt",
+            ":biology:bioinformatics",
+            ":graphical"
         ],
         "summary": [
             "Multiple alignment of nucleic acid and protein sequences (graphical interface)"
@@ -1707,13 +1694,13 @@
     },
     "iva": {
         "tags": [
-            ":file",
-            ":python",
-            "interface::commandline",
             "role::program",
+            ":file",
+            ":biological-sequence",
             "field::biology:bioinformatics",
             "field::biology",
-            ":biological-sequence",
+            ":python",
+            "interface::commandline",
             "biology::nucleic-acids"
         ],
         "summary": [
@@ -1729,14 +1716,14 @@
     "mustang": {
         "tags": [
             "biology::peptidic",
-            ":comparing",
-            "works-with-format::plaintext",
-            "interface::commandline",
             "role::program",
             ":c++",
             "field::biology:bioinformatics",
             "field::biology",
-            ":analysing"
+            ":comparing",
+            "works-with-format::plaintext",
+            ":analysing",
+            "interface::commandline"
         ],
         "summary": [
             "multiple structural alignment of proteins"
@@ -1744,11 +1731,11 @@
     },
     "abyss": {
         "tags": [
-            "implemented-in::c",
-            "interface::commandline",
-            "Genomics",
             "role::program",
-            "field::biology"
+            "implemented-in::c",
+            "field::biology",
+            "Genomics",
+            "interface::commandline"
         ],
         "summary": [
             "de novo, parallel, sequence assembler for short reads",
@@ -1757,20 +1744,20 @@
     },
     "gbrowse-calign": {
         "tags": [
-            "role::shared-lib",
-            "implemented-in::c",
-            ":c",
-            ":commandline",
-            ":biology:bioinformatics",
             "devel::library",
-            "role::devel-lib",
-            "devel::lang:c",
             "role::program",
-            "field::biology",
-            ":shared-lib",
+            ":commandline",
+            "role::devel-lib",
             "scope::utility",
+            ":utility",
+            "devel::lang:c",
+            ":shared-lib",
+            ":c",
+            ":biology:bioinformatics",
             "field::biology:bioinformatics",
-            ":utility"
+            "implemented-in::c",
+            "field::biology",
+            "role::shared-lib"
         ],
         "summary": [
             "CAlign helper"
@@ -1786,14 +1773,14 @@
     },
     "mriconvert": {
         "tags": [
-            "field::medicine:imaging",
-            "uitoolkit::wxwidgets",
-            ":x11",
-            "use::converting",
-            ":application",
-            "interface::graphical",
             "role::program",
-            "field::medicine"
+            "uitoolkit::wxwidgets",
+            "field::medicine",
+            "field::medicine:imaging",
+            "interface::graphical",
+            ":application",
+            "use::converting",
+            ":x11"
         ],
         "summary": [
             "medical image file conversion utility"
@@ -1809,25 +1796,25 @@
     },
     "gff2ps": {
         "tags": [
-            "implemented-in::shell",
-            "works-with-format::postscript",
+            "role::program",
             ":commandline",
-            "use::converting",
+            "scope::utility",
+            "works-with-format::postscript",
             "works-with::TODO",
             ":image:vector",
-            "role::program",
-            ":viewing",
-            "field::biology:bioinformatics",
-            "field::biology",
             ":text",
-            "scope::utility",
-            ":image"
+            "field::biology:bioinformatics",
+            ":viewing",
+            "field::biology",
+            ":image",
+            "implemented-in::shell",
+            "use::converting"
         ],
         "summary": [
             "produces PostScript graphical output from GFF-files"
         ]
     },
-    "MACE": {
+    "mace": {
         "tags": [
             "Genomics"
         ],
@@ -1853,23 +1840,17 @@
     },
     "biosql": {
         "tags": [
-            "devel::lang:python",
-            ":python",
             "devel::library",
             "role::devel-lib",
-            "field::biology",
+            "devel::lang:sql",
             "works-with::db",
-            "devel::lang:sql"
+            "field::biology",
+            ":python",
+            "devel::lang:python"
         ],
         "summary": [
             "Biopython support for the BioSQL database schema (Python 2)"
         ]
-    },
-    "fastx-toolkit": {
-        "tags": [
-            "role::program"
-        ],
-        "summary": []
     },
     "obitools": {
         "tags": [
@@ -1931,16 +1912,16 @@
     },
     "sigma-align": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            "works-with::TODO",
-            ":comparing",
-            "works-with-format::plaintext",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            "works-with::TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
+            ":comparing",
+            "works-with-format::plaintext"
         ],
         "summary": [
             "Simple greedy multiple alignment of non-coding DNA sequences"
@@ -1992,16 +1973,16 @@
     },
     "fastlink": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            "works-with-format::TODO",
-            "works-with::TODO",
-            ":comparing",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            "works-with::TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "works-with-format::TODO",
+            "field::biology",
+            ":comparing"
         ],
         "summary": [
             "faster version of pedigree programs of Linkage"
@@ -2025,9 +2006,9 @@
     },
     "emboss-data": {
         "tags": [
-            ":app-data",
             "made-of::TODO",
             "field::biology:bioinformatics",
+            ":app-data",
             "field::biology"
         ],
         "summary": [
@@ -2044,21 +2025,21 @@
     },
     "melting": {
         "tags": [
-            "implemented-in::c",
-            ":c",
-            ":commandline",
+            "use::analysing",
             "field::biology:molecular",
+            ":commandline",
+            "role::program",
+            "scope::utility",
+            "suite::gnu",
+            ":utility",
+            ":c",
             "works-with::TODO",
             ":plaintext",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
             "works-with-format::plaintext",
             "interface::commandline",
-            "role::program",
-            ":utility",
-            "field::biology:bioinformatics",
-            "field::biology",
-            "suite::gnu",
-            "scope::utility",
-            "use::analysing",
             ":analysing"
         ],
         "summary": [
@@ -2067,15 +2048,15 @@
     },
     "autogrid": {
         "tags": [
-            ":TODO",
-            ":commandline",
-            "implemented-in::c++",
-            "role::program",
-            "field::biology",
-            "scope::utility",
             "use::analysing",
+            "role::program",
+            ":commandline",
+            "scope::utility",
+            ":TODO",
+            "implemented-in::c++",
+            "works-with::3dmodel",
             "field::biology:structural",
-            "works-with::3dmodel"
+            "field::biology"
         ],
         "summary": [
             "pre-calculate binding of ligands to their receptor"
@@ -2092,8 +2073,8 @@
     "imputeme": {
         "tags": [
             "polygenic risk scores",
-            "Genomics",
-            "personal genomics"
+            "personal genomics",
+            "Genomics"
         ],
         "summary": [
             "A polygenic risk score calculator"
@@ -2110,14 +2091,14 @@
     "csb": {
         "tags": [
             "",
-            "implemented-in::python",
             "devel::lang:python",
-            "role::shared-lib"
+            "role::shared-lib",
+            "implemented-in::python"
         ],
         "summary": [
-            "Python framework for structural bioinformatics (Python3 version)",
+            "Computational Structural Biology Toolbox (CSB)",
             "Python framework for structural bioinformatics",
-            "Computational Structural Biology Toolbox (CSB)"
+            "Python framework for structural bioinformatics (Python3 version)"
         ]
     },
     "physamp": {
@@ -2131,15 +2112,15 @@
     },
     "gnumed-common": {
         "tags": [
-            "field::medicine",
             "made-of::TODO",
+            "field::medicine",
             "role::app-data"
         ],
         "summary": [
             "medical practice management - common files"
         ]
     },
-    "PeptideProphet": {
+    "peptideprophet": {
         "tags": [
             "Proteomics"
         ],
@@ -2165,11 +2146,11 @@
     },
     "augustus-data": {
         "tags": [
-            "role::app-data",
+            "use::analysing",
             ":program",
+            "role::app-data",
             "field::biology:bioinformatics",
             "field::biology",
-            "use::analysing",
             ":analysing"
         ],
         "summary": [
@@ -2231,7 +2212,7 @@
             "Platform-independent data for the NCBI toolkit"
         ]
     },
-    "ONCOCNV": {
+    "oncocnv": {
         "tags": [],
         "summary": [
             "ONCOCNV - a package to detect copy number changes in Deep Sequencing data"
@@ -2239,13 +2220,13 @@
     },
     "tantan": {
         "tags": [
-            ":commandline",
-            "implemented-in::c++",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            ":biological-sequence"
+            ":biological-sequence",
+            "implemented-in::c++",
+            "field::biology:bioinformatics",
+            "field::biology"
         ],
         "summary": [
             "low complexity and tandem repeat masker for biosequences"
@@ -2277,16 +2258,16 @@
     },
     "phylip": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            "works-with::TODO",
-            ":comparing",
-            "works-with-format::plaintext",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            "works-with::TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
+            ":comparing",
+            "works-with-format::plaintext"
         ],
         "summary": [
             "package of programs for inferring phylogenies"
@@ -2446,7 +2427,7 @@
             "RNA-Seq by Expectation-Maximization"
         ]
     },
-    "GeneOCR UI": {
+    "geneocr ui": {
         "tags": [],
         "summary": [
             "UI of geneocr tool, which reads gene names in images"
@@ -2462,18 +2443,18 @@
     },
     "dialign-tx": {
         "tags": [
-            "implemented-in::c",
-            "use::comparing",
-            ":TODO",
-            ":commandline",
-            ":plaintext",
-            "works-with::TODO",
-            "works-with-format::TODO",
             "role::program",
+            ":commandline",
+            "scope::utility",
+            ":TODO",
             ":program",
+            "works-with::TODO",
+            ":plaintext",
             "field::biology:bioinformatics",
+            "implemented-in::c",
+            "works-with-format::TODO",
             "field::biology",
-            "scope::utility"
+            "use::comparing"
         ],
         "summary": [
             "Segment-based multiple sequence alignment"
@@ -2487,7 +2468,7 @@
             "tool to identify unstructured loops in proteins"
         ]
     },
-    "BioR annotate": {
+    "bior annotate": {
         "tags": [
             "Genomics"
         ],
@@ -2504,12 +2485,6 @@
         ]
     },
     "tpp": {
-        "tags": [
-            "Proteomics"
-        ],
-        "summary": []
-    },
-    "TPP": {
         "tags": [
             "Proteomics"
         ],
@@ -2533,11 +2508,11 @@
     },
     "bppphyview": {
         "tags": [
-            ":application",
-            "interface::graphical",
-            "uitoolkit::qt",
             "role::program",
-            "interface::x11"
+            "uitoolkit::qt",
+            "interface::graphical",
+            "interface::x11",
+            ":application"
         ],
         "summary": [
             "Bio++ Phylogenetic Viewer"
@@ -2570,14 +2545,14 @@
     },
     "mia-viewit": {
         "tags": [
-            "field::medicine:imaging",
-            "uitoolkit::gtk",
-            ":x11",
-            ":application",
-            "interface::graphical",
-            "use::viewing",
             "role::program",
-            "field::medicine"
+            "field::medicine",
+            "field::medicine:imaging",
+            "use::viewing",
+            "interface::graphical",
+            ":application",
+            "uitoolkit::gtk",
+            ":x11"
         ],
         "summary": [
             "Viewer program for 3D data sets created by using MIA"
@@ -2593,15 +2568,15 @@
     },
     "alien-hunter": {
         "tags": [
-            ":perl",
-            "implemented-in::java",
-            "interface::commandline",
-            "role::program",
-            ":utility",
-            "field::biology",
-            "scope::utility",
             "use::analysing",
-            "field::biology:structural"
+            "role::program",
+            "scope::utility",
+            ":utility",
+            "field::biology:structural",
+            "field::biology",
+            "interface::commandline",
+            ":perl",
+            "implemented-in::java"
         ],
         "summary": [
             "Interpolated Variable Order Motifs to identify horizontally acquired DNA"
@@ -2641,25 +2616,25 @@
     },
     "altree": {
         "tags": [
-            "field::biology:bioinformatics",
-            ":perl",
-            ":TODO",
-            ":biology:bioinformatics",
-            "implemented-in::perl",
-            "interface::commandline",
-            "role::program",
-            ":shared-lib",
-            "devel::library",
-            "field::biology",
-            "role::devel-lib",
-            "use::analysing",
-            "implemented-in::c",
-            "use::comparing",
             ":commandline",
-            ":plaintext",
-            "devel::lang:perl",
+            ":shared-lib",
             "works-with::TODO",
-            "scope::utility"
+            ":plaintext",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
+            ":TODO",
+            "use::analysing",
+            "devel::library",
+            "role::program",
+            "scope::utility",
+            "implemented-in::perl",
+            "devel::lang:perl",
+            "use::comparing",
+            "interface::commandline",
+            "role::devel-lib",
+            ":biology:bioinformatics",
+            ":perl"
         ],
         "summary": [
             "program to perform phylogeny-based association and localization analysis"
@@ -2684,19 +2659,19 @@
     },
     "bowtie2": {
         "tags": [
-            "works-with::biological-sequence",
-            ":comparing",
-            "interface::commandline",
-            "Genomics",
+            "role::program",
             ":c++",
             "field::biology:bioinformatics",
             "field::biology",
-            "role::program",
+            ":comparing",
+            "Genomics",
+            "works-with::biological-sequence",
+            "interface::commandline",
             "biology::nucleic-acids"
         ],
         "summary": [
-            "an ultrafast memory-efficient short read aligner",
-            "ultrafast memory-efficient short read aligner"
+            "ultrafast memory-efficient short read aligner",
+            "an ultrafast memory-efficient short read aligner"
         ]
     },
     "fsm-lite": {
@@ -2709,20 +2684,20 @@
     },
     "maq": {
         "tags": [
-            ":perl",
-            ":TODO",
-            "use::comparing",
-            "implemented-in::c++",
-            "works-with-format::TODO",
-            "works-with-format::plaintext",
-            "interface::commandline",
-            "role::program",
-            ":utility",
-            "field::biology:bioinformatics",
-            "field::biology",
-            "use::TODO",
+            "use::analysing",
             ":searching",
-            "use::analysing"
+            "role::program",
+            ":TODO",
+            ":utility",
+            "implemented-in::c++",
+            "use::TODO",
+            "field::biology:bioinformatics",
+            "works-with-format::TODO",
+            "field::biology",
+            "works-with-format::plaintext",
+            "use::comparing",
+            "interface::commandline",
+            ":perl"
         ],
         "summary": [
             "maps short fixed-length polymorphic DNA sequence reads to reference sequences"
@@ -2730,15 +2705,15 @@
     },
     "phyml": {
         "tags": [
-            ":c",
             "biology::peptidic",
-            "works-with::biological-sequence",
-            ":comparing",
-            "interface::commandline",
             "role::program",
+            ":c",
+            "works-with::biological-sequence",
             "field::biology:bioinformatics",
             "field::biology",
-            ":analysing"
+            ":comparing",
+            ":analysing",
+            "interface::commandline"
         ],
         "summary": [
             "Phylogenetic estimation using Maximum Likelihood"
@@ -2754,26 +2729,26 @@
     },
     "ariba": {
         "tags": [
-            ":application",
-            ":python",
-            "interface::commandline",
+            "use::analysing",
             "role::program",
             "field::biology:bioinformatics",
+            ":application",
             "field::biology",
-            "use::analysing",
+            ":python",
+            "interface::commandline",
             "biology::nucleic-acids"
         ],
         "summary": [
             "Antibiotic Resistance Identification By Assembly"
         ]
     },
-    "PIA - Protein Inference Algorithms": {
+    "pia - protein inference algorithms": {
         "tags": [
             "Proteomics"
         ],
         "summary": [
-            "Compile PIA XML files and run analysis pipelines for protein inference with this image",
-            "Compile PIA XML files and run pipelines with this image"
+            "Compile PIA XML files and run pipelines with this image",
+            "Compile PIA XML files and run analysis pipelines for protein inference with this image"
         ]
     },
     "pirs-profiles": {
@@ -2793,7 +2768,7 @@
             "Orthanc development files"
         ]
     },
-    "TPMCalculator": {
+    "tpmcalculator": {
         "tags": [
             "RNA-seq"
         ],
@@ -2814,8 +2789,8 @@
             ""
         ],
         "summary": [
-            "toolkit for analysing high-throughput sequencing data",
-            "library for analysing high-throughput sequencing data"
+            "library for analysing high-throughput sequencing data",
+            "toolkit for analysing high-throughput sequencing data"
         ]
     },
     "bioconductor-genomeinfodb": {
@@ -2858,15 +2833,15 @@
     },
     "camitk-imp": {
         "tags": [
-            "field::medicine:imaging",
-            ":x11",
-            ":application",
             "x11::application",
-            "interface::graphical",
-            "use::viewing",
-            "uitoolkit::qt",
             "role::program",
-            "field::medicine"
+            "uitoolkit::qt",
+            "field::medicine",
+            "field::medicine:imaging",
+            "use::viewing",
+            "interface::graphical",
+            ":application",
+            ":x11"
         ],
         "summary": [
             "workbench application for the CamiTK library"
@@ -2878,8 +2853,8 @@
             "Genomics"
         ],
         "summary": [
-            "count k-mers in DNA sequences",
-            "A fast multi-threaded k-mer counter"
+            "A fast multi-threaded k-mer counter",
+            "count k-mers in DNA sequences"
         ]
     },
     "strelka": {
@@ -2892,14 +2867,14 @@
     },
     "primer3": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            ":plaintext",
-            "works-with::TODO",
             "role::program",
+            ":commandline",
+            "scope::utility",
+            "works-with::TODO",
+            ":plaintext",
             "field::biology:bioinformatics",
-            "field::biology",
-            "scope::utility"
+            "implemented-in::c",
+            "field::biology"
         ],
         "summary": [
             "tool to design flanking oligo nucleotides for DNA amplification"
@@ -2947,13 +2922,13 @@
     },
     "ncbi-blast-plus": {
         "tags": [
-            ":commandline",
-            "implemented-in::c++",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             ":biological-sequence",
-            "use::analysing"
+            "implemented-in::c++",
+            "field::biology:bioinformatics",
+            "field::biology"
         ],
         "summary": [
             "next generation suite of BLAST sequence search tools"
@@ -3079,13 +3054,13 @@
     },
     "dnaclust": {
         "tags": [
-            ":biology:bioinformatics",
-            "implemented-in::c++",
             "role::program",
-            "field::biology",
             ":biological-sequence",
-            "biology::nucleic-acids",
-            "biology::format:fasta"
+            "implemented-in::c++",
+            ":biology:bioinformatics",
+            "field::biology",
+            "biology::format:fasta",
+            "biology::nucleic-acids"
         ],
         "summary": [
             "tool for clustering millions of short DNA sequences"
@@ -3118,16 +3093,16 @@
     },
     "minc-tools": {
         "tags": [
-            "works-with::image:raster",
-            ":converting",
-            "field::medicine:imaging",
-            "implemented-in::c",
-            ":commandline",
+            "use::analysing",
             "works-with::image",
             "role::program",
-            "field::medicine",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            "field::medicine",
+            "works-with::image:raster",
+            "implemented-in::c",
+            ":converting",
+            "field::medicine:imaging"
         ],
         "summary": [
             "MNI medical image format tools"
@@ -3149,27 +3124,27 @@
     },
     "acedb-other-belvu": {
         "tags": [
-            "uitoolkit::gtk",
             "x11::application",
-            "interface::graphical",
             "role::program",
             "uitoolkit::ncurses",
+            "interface::graphical",
             "interface::x11",
-            ":ncurses"
+            ":ncurses",
+            "uitoolkit::gtk"
         ],
         "summary": [
-            "multiple sequence alignment editor",
-            "transitional package for belvu"
+            "transitional package for belvu",
+            "multiple sequence alignment editor"
         ]
     },
     "freediams": {
         "tags": [
-            ":qt",
-            "use::organizing",
             "x11::application",
-            "interface::graphical",
             "role::program",
+            ":qt",
             "field::medicine",
+            "use::organizing",
+            "interface::graphical",
             "interface::x11"
         ],
         "summary": [
@@ -3224,20 +3199,20 @@
     },
     "gwyddion": {
         "tags": [
-            ":graphical",
-            "implemented-in::c",
-            "uitoolkit::gtk",
-            ":image:raster",
-            ":x11",
-            "scope::application",
-            "works-with::image",
             "field::physics",
+            "works-with::image",
             "x11::application",
             "role::program",
             "field::medicine",
             ":viewing",
+            "implemented-in::c",
+            ":image:raster",
+            ":graphical",
             ":visualisation",
-            ":analysing"
+            "scope::application",
+            ":analysing",
+            "uitoolkit::gtk",
+            ":x11"
         ],
         "summary": [
             "Scanning Probe Microscopy visualization and analysis tool"
@@ -3245,11 +3220,11 @@
     },
     "dicom3tools": {
         "tags": [
-            "field::medicine:imaging",
             "works-with::image",
             "role::program",
             "field::medicine",
-            ":converting"
+            ":converting",
+            "field::medicine:imaging"
         ],
         "summary": [
             "DICOM medical image files manipulation and conversion tools"
@@ -3290,15 +3265,15 @@
     },
     "codonw": {
         "tags": [
+            "use::analysing",
+            "role::program",
+            "scope::utility",
+            ":program",
             "interface::text-mode",
             ":c",
-            "interface::commandline",
-            "role::program",
-            ":program",
             "field::biology:bioinformatics",
             "field::biology",
-            "scope::utility",
-            "use::analysing",
+            "interface::commandline",
             ":analysing",
             "biology::nucleic-acids"
         ],
@@ -3338,13 +3313,13 @@
     },
     "plastimatch": {
         "tags": [
-            "field::medicine:imaging",
-            ":x11",
             "x11::application",
-            "interface::graphical",
-            "use::viewing",
             "role::program",
-            "field::medicine"
+            "field::medicine",
+            "field::medicine:imaging",
+            "use::viewing",
+            "interface::graphical",
+            ":x11"
         ],
         "summary": [
             "medical image reconstruction and registration"
@@ -3359,13 +3334,13 @@
             "ease manipulation of matplotlib colormaps and color codecs (Python 2)"
         ]
     },
-    "RProteomics": {
+    "rproteomics": {
         "tags": [
             "Metabolomics",
+            "Transcriptomics",
             "Proteomics",
-            "Genomics",
             "General",
-            "Transcriptomics"
+            "Genomics"
         ],
         "summary": [
             "Rstudio-Proteomics is an adaptation from the original images provided by the Rocker-org. The container provided here contains a Rstudio server configurated with several packages dedicated to Proteomcis data analysis.Rstudio-Proteomics is an adaptation from the original images provided by the Rocker-org. The container provided here contains a Rstudio server configurated with several packages dedicated to Proteomcis data analysis."
@@ -3373,8 +3348,8 @@
     },
     "genometools-common": {
         "tags": [
-            "uitoolkit::ncurses",
-            "role::app-data"
+            "role::app-data",
+            "uitoolkit::ncurses"
         ],
         "summary": [
             "shared data files for GenomeTools"
@@ -3382,14 +3357,14 @@
     },
     "aegean": {
         "tags": [
-            ":converting",
-            "implemented-in::c",
-            "use::comparing",
-            ":commandline",
+            "use::analysing",
             "role::program",
+            ":commandline",
             "field::biology:bioinformatics",
+            "implemented-in::c",
+            ":converting",
             "field::biology",
-            "use::analysing"
+            "use::comparing"
         ],
         "summary": [
             "integrated genome analysis toolkit"
@@ -3414,14 +3389,14 @@
     },
     "biopython": {
         "tags": [
-            "",
-            "devel::lang:python",
-            ":biology:bioinformatics",
             "devel::library",
-            "implemented-in::python",
+            "",
             "role::devel-lib",
+            "implemented-in::python",
             ":shared-lib",
-            "field::biology"
+            ":biology:bioinformatics",
+            "field::biology",
+            "devel::lang:python"
         ],
         "summary": [
             "Python library for bioinformatics (implemented in Python 3)",
@@ -3430,16 +3405,16 @@
     },
     "blast2": {
         "tags": [
-            ":c",
             "biology::peptidic",
-            ":calculation",
-            "interface::commandline",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
-            "use::searching",
             "scope::utility",
-            ":biological-sequence"
+            ":biological-sequence",
+            ":c",
+            "field::biology:bioinformatics",
+            "use::searching",
+            ":calculation",
+            "field::biology",
+            "interface::commandline"
         ],
         "summary": [
             "transitional dummy package to ncbi-blast+-legacy"
@@ -3471,28 +3446,28 @@
     },
     "bamtools": {
         "tags": [
-            "Genomics",
             "implemented-in::c++",
-            "role::program"
+            "role::program",
+            "Genomics"
         ],
         "summary": [
-            "toolkit for manipulating BAM (genome alignment) files",
-            "C++ API & command-line toolkit for working with BAM data"
+            "C++ API & command-line toolkit for working with BAM data",
+            "toolkit for manipulating BAM (genome alignment) files"
         ]
     },
     "galileo": {
         "tags": [
-            "interface::commandline",
-            "implemented-in::python",
             ":program",
+            "implemented-in::python",
             "field::medicine",
-            "use::monitor"
+            "use::monitor",
+            "interface::commandline"
         ],
         "summary": [
             "Utility to securely synchronize a Fitbit device with the Fitbit web service"
         ]
     },
-    "Integron Finder": {
+    "integron finder": {
         "tags": [],
         "summary": [
             "Integron Finder aims at detecting integrons in DNA sequences."
@@ -3500,9 +3475,9 @@
     },
     "pvrg-jpeg": {
         "tags": [
-            "interface::commandline",
             "implemented-in::c",
-            "role::program"
+            "role::program",
+            "interface::commandline"
         ],
         "summary": [
             "Stanford PVRG JPEG tool"
@@ -3546,8 +3521,8 @@
         ],
         "summary": [
             "optional static typing for Python",
-            "Optional static typing for Python",
-            "public modules for mypy (Python 3)"
+            "public modules for mypy (Python 3)",
+            "Optional static typing for Python"
         ]
     },
     "belvu": {
@@ -3568,20 +3543,20 @@
     },
     "cd-hit": {
         "tags": [
-            ":perl",
-            "works-with::biological-sequence",
-            "implemented-in::c++",
-            ":comparing",
-            "interface::commandline",
             "role::program",
+            "implemented-in::c++",
             "field::biology:bioinformatics",
-            "field::biology"
+            "field::biology",
+            ":comparing",
+            "works-with::biological-sequence",
+            "interface::commandline",
+            ":perl"
         ],
         "summary": [
             "suite of programs designed to quickly group sequences"
         ]
     },
-    "MSGF+": {
+    "msgf+": {
         "tags": [
             "Proteomics"
         ],
@@ -3643,26 +3618,26 @@
     },
     "plasmidomics": {
         "tags": [
-            "works-with::image",
-            ":image:vector",
-            "uitoolkit::tk",
-            ":TODO",
-            ":tk",
-            "implemented-in::python",
-            "use::TODO",
-            ":text",
-            "role::program",
-            "field::biology",
-            ":graphical",
-            "works-with-format::postscript",
-            ":commandline",
-            ":x11",
-            "field::biology:molecular",
-            ":postscript",
-            ":program",
-            "works-with::TODO",
             "x11::application",
-            "scope::utility"
+            ":commandline",
+            "implemented-in::python",
+            "works-with::TODO",
+            "field::biology",
+            ":text",
+            ":x11",
+            ":TODO",
+            ":program",
+            "works-with-format::postscript",
+            ":image:vector",
+            "role::program",
+            "scope::utility",
+            "use::TODO",
+            ":tk",
+            "works-with::image",
+            "uitoolkit::tk",
+            "field::biology:molecular",
+            ":graphical",
+            ":postscript"
         ],
         "summary": [
             "draw plasmids and vector maps with PostScript graphics export"
@@ -3697,14 +3672,14 @@
     },
     "ctn-dev": {
         "tags": [
-            "field::medicine:imaging",
-            "implemented-in::c",
-            ":image:raster",
+            "devel::library",
             "works-with::image",
             ":devel-lib",
-            "devel::library",
             ":program",
-            "works-with::db"
+            "implemented-in::c",
+            ":image:raster",
+            "works-with::db",
+            "field::medicine:imaging"
         ],
         "summary": [
             "Development files for Central Test Node, a DICOM implementation"
@@ -3742,7 +3717,7 @@
             "Salmonella serotyping from genome sequencing data"
         ]
     },
-    "SAINTq": {
+    "saintq": {
         "tags": [
             "Proteomics"
         ],
@@ -3771,8 +3746,8 @@
             ""
         ],
         "summary": [
-            "rdflib extension adding JSON-LD parser and serializer in Python 2",
-            "rdflib extension adding JSON-LD parser and serializer in Python 3"
+            "rdflib extension adding JSON-LD parser and serializer in Python 3",
+            "rdflib extension adding JSON-LD parser and serializer in Python 2"
         ]
     },
     "suffixfsm": {
@@ -3834,17 +3809,17 @@
     },
     "t-coffee": {
         "tags": [
-            "implemented-in::c",
-            ":TODO",
-            ":commandline",
-            "works-with-format::TODO",
-            ":comparing",
-            "works-with-format::plaintext",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            ":TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "works-with-format::TODO",
+            "field::biology",
+            ":comparing",
+            "works-with-format::plaintext"
         ],
         "summary": [
             "Multiple Sequence Alignment"
@@ -3868,12 +3843,12 @@
     },
     "edfbrowser": {
         "tags": [
-            ":qt",
             "x11::application",
-            "interface::graphical",
-            "use::viewing",
             "role::program",
+            ":qt",
             "field::medicine",
+            "use::viewing",
+            "interface::graphical",
             "interface::x11"
         ],
         "summary": [
@@ -3888,7 +3863,7 @@
             "neural network architecture for norsnet"
         ]
     },
-    "Novor": {
+    "novor": {
         "tags": [
             "Proteomics"
         ],
@@ -3904,7 +3879,7 @@
             "index and search tool in genomic sequences"
         ]
     },
-    "ProteoWizard": {
+    "proteowizard": {
         "tags": [
             "Proteomics"
         ],
@@ -3987,13 +3962,13 @@
     },
     "embassy-domsearch": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology"
         ],
         "summary": [
             "Extra EMBOSS commands to search for protein domains"
@@ -4007,17 +3982,17 @@
     },
     "sim4": {
         "tags": [
-            "implemented-in::c",
-            "use::comparing",
-            ":TODO",
-            ":commandline",
-            "works-with-format::TODO",
-            "works-with-format::plaintext",
+            ":searching",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            ":searching"
+            ":TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "works-with-format::TODO",
+            "field::biology",
+            "works-with-format::plaintext",
+            "use::comparing"
         ],
         "summary": [
             "tool for aligning cDNA and genomic DNA"
@@ -4025,21 +4000,21 @@
     },
     "gnumed-client": {
         "tags": [
-            "use::organizing",
-            ":wxwidgets",
-            ":TODO",
-            ":people",
-            ":x11",
-            "scope::application",
-            "works-with::TODO",
             "x11::application",
-            "interface::graphical",
-            "implemented-in::python",
             "role::program",
+            ":TODO",
+            ":wxwidgets",
+            "implemented-in::python",
+            ":people",
             "field::medicine",
+            "use::organizing",
+            "works-with::TODO",
             "use::TODO",
+            "interface::graphical",
             "works-with::db",
-            "network::client"
+            "scope::application",
+            "network::client",
+            ":x11"
         ],
         "summary": [
             "medical practice management - Client"
@@ -4050,8 +4025,8 @@
             ""
         ],
         "summary": [
-            "Pacific Biosciences variant and consensus caller",
-            "Pacific Biosciences variant and consensus caller (Python 2)"
+            "Pacific Biosciences variant and consensus caller (Python 2)",
+            "Pacific Biosciences variant and consensus caller"
         ]
     },
     "seq_crumbs": {
@@ -4070,9 +4045,9 @@
     },
     "daligner": {
         "tags": [
-            "interface::commandline",
             "implemented-in::c",
-            "role::program"
+            "role::program",
+            "interface::commandline"
         ],
         "summary": [
             "local alignment discovery between long nucleotide sequencing reads"
@@ -4144,16 +4119,16 @@
     "muscle": {
         "tags": [
             "biology::peptidic",
-            "use::comparing",
-            ":commandline",
-            ":biology:bioinformatics",
-            "implemented-in::c++",
-            ":plaintext",
-            "works-with::TODO",
-            "biology::format:aln",
             "role::program",
+            ":commandline",
+            "scope::utility",
+            "implemented-in::c++",
+            ":biology:bioinformatics",
+            "works-with::TODO",
+            ":plaintext",
             "field::biology",
-            "scope::utility"
+            "use::comparing",
+            "biology::format:aln"
         ],
         "summary": [
             "Multiple alignment program of protein sequences"
@@ -4177,21 +4152,21 @@
     },
     "boxshade": {
         "tags": [
-            "works-with-format::html",
-            "implemented-in::c",
             "biology::peptidic",
-            ":commandline",
-            ":biology:bioinformatics",
-            ":plaintext",
-            "works-with::TODO",
-            "biology::format:aln",
-            ":postscript",
             "role::program",
-            ":typesetting",
-            "works-with::text",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            ":tex"
+            "works-with::text",
+            ":typesetting",
+            ":biology:bioinformatics",
+            "works-with::TODO",
+            ":plaintext",
+            ":tex",
+            "implemented-in::c",
+            "field::biology",
+            ":postscript",
+            "works-with-format::html",
+            "biology::format:aln"
         ],
         "summary": [
             "Pretty-printing of multiple sequence alignments"
@@ -4247,12 +4222,12 @@
     },
     "bio-eagle": {
         "tags": [
+            "use::analysing",
+            "role::program",
             ":commandline",
             "implemented-in::c++",
-            "role::program",
             "field::biology:bioinformatics",
-            "field::biology",
-            "use::analysing"
+            "field::biology"
         ],
         "summary": [
             "Haplotype phasing within a genotyped cohort or using a phased reference panel"
@@ -4260,18 +4235,18 @@
     },
     "mipe": {
         "tags": [
-            "use::organizing",
-            ":perl",
             "field::biology:molecular",
-            "works-with::TODO",
-            "role::TODO",
-            "interface::commandline",
-            ":documentation",
+            "scope::utility",
             ":program",
+            "use::organizing",
+            "works-with::TODO",
             "field::biology:bioinformatics",
+            ":documentation",
             "field::biology",
+            "role::TODO",
             ":xml",
-            "scope::utility"
+            "interface::commandline",
+            ":perl"
         ],
         "summary": [
             "Tools to store PCR-derived data"
@@ -4365,20 +4340,20 @@
     },
     "fastaq": {
         "tags": [
-            ":converting",
+            "use::analysing",
+            ":calculating",
+            "role::program",
             ":commandline",
+            "scope::utility",
+            "implemented-in::python",
+            ":filtering",
+            ":biological-sequence",
             ":biology:bioinformatics",
             ":checking",
-            ":filtering",
-            "implemented-in::python",
-            "role::program",
+            ":converting",
             "field::biology",
-            "scope::utility",
-            ":biological-sequence",
-            "use::analysing",
-            "biology::nucleic-acids",
             "biology::format:fasta",
-            ":calculating"
+            "biology::nucleic-acids"
         ],
         "summary": [
             "FASTA and FASTQ file manipulation tools"
@@ -4386,14 +4361,14 @@
     },
     "circlator": {
         "tags": [
-            ":file",
-            ":python",
             "role::program",
+            ":file",
+            ":biological-sequence",
             "field::biology:bioinformatics",
             "field::biology",
-            ":biological-sequence",
-            "biology::nucleic-acids",
-            "science::calculation"
+            ":python",
+            "science::calculation",
+            "biology::nucleic-acids"
         ],
         "summary": [
             "circularize genome assemblies"
@@ -4425,17 +4400,17 @@
     },
     "hmmer": {
         "tags": [
-            "implemented-in::c",
             "biology::peptidic",
+            "role::program",
             ":commandline",
+            "scope::utility",
             ":biology:bioinformatics",
             ":plaintext",
-            "biology::format:aln",
-            "role::program",
-            "field::biology",
+            "implemented-in::c",
             "use::searching",
-            "scope::utility",
-            "works-with::db"
+            "works-with::db",
+            "field::biology",
+            "biology::format:aln"
         ],
         "summary": [
             "profile hidden Markov models for protein sequence analysis"
@@ -4457,7 +4432,7 @@
             "Detection of (Co-)orthologs in large-scale protein analysis"
         ]
     },
-    "Comet": {
+    "comet": {
         "tags": [
             "Proteomics"
         ],
@@ -4505,8 +4480,8 @@
     },
     "chimeraslayer": {
         "tags": [
-            "biology::nucleic-acids",
-            "field::biology"
+            "field::biology",
+            "biology::nucleic-acids"
         ],
         "summary": [
             "detects likely chimeras in PCR amplified DNA"
@@ -4538,12 +4513,12 @@
     },
     "beagle": {
         "tags": [
-            "implemented-in::java",
-            ":commandline",
+            "use::analysing",
             "role::program",
+            ":commandline",
             "field::biology:bioinformatics",
             "field::biology",
-            "use::analysing"
+            "implemented-in::java"
         ],
         "summary": [
             "Genotype calling, genotype phasing and imputation of ungenotyped markers"
@@ -4551,10 +4526,10 @@
     },
     "fastqc": {
         "tags": [
-            "General",
+            "interface::graphical",
             "interface::x11",
             "role::program",
-            "interface::graphical"
+            "General"
         ],
         "summary": [
             "quality control for high throughput sequence data",
@@ -4563,17 +4538,17 @@
     },
     "kalign": {
         "tags": [
-            "implemented-in::c",
             "biology::peptidic",
-            "use::comparing",
-            ":commandline",
-            ":biology:bioinformatics",
-            ":plaintext",
-            "works-with::TODO",
-            "biology::format:aln",
             "role::program",
+            ":commandline",
+            "scope::utility",
+            ":biology:bioinformatics",
+            "works-with::TODO",
+            ":plaintext",
+            "implemented-in::c",
             "field::biology",
-            "scope::utility"
+            "use::comparing",
+            "biology::format:aln"
         ],
         "summary": [
             "Global and progressive multiple sequence alignment"
@@ -4603,16 +4578,16 @@
     },
     "msisensor2": {
         "tags": [
-            ":commandline",
-            "works-with-format::plaintext",
             "implemented-in::r",
-            "role::program",
+            "use::analysing",
             ":searching",
-            "field::biology:bioinformatics",
-            "field::biology",
+            "role::program",
+            ":commandline",
             "scope::utility",
             ":biological-sequence",
-            "use::analysing"
+            "field::biology:bioinformatics",
+            "field::biology",
+            "works-with-format::plaintext"
         ],
         "summary": [
             "MSIsensor2 is a novel algorithm based machine learning, featuring a large upgrade in the microsatellite instability (MSI) detection for tumor only sequencing data, including Cell-Free DNA (cfDNA), Formalin-Fixed Paraffin-Embedded(FFPE) and other sample types"
@@ -4636,8 +4611,8 @@
     },
     "circos-tools": {
         "tags": [
-            "implemented-in::perl",
             "role::program",
+            "implemented-in::perl",
             ":program",
             "field::biology:bioinformatics",
             "field::biology"
@@ -4651,11 +4626,11 @@
             ""
         ],
         "summary": [
-            "Python library for parsing HL7 messages",
-            "Python3 library for parsing HL7 messages"
+            "Python3 library for parsing HL7 messages",
+            "Python library for parsing HL7 messages"
         ]
     },
-    "PIA-web-server": {
+    "pia-web-server": {
         "tags": [
             "Proteomics"
         ],
@@ -4665,9 +4640,9 @@
     },
     "mcl": {
         "tags": [
-            "field::mathematics",
             "implemented-in::c",
-            "role::program"
+            "role::program",
+            "field::mathematics"
         ],
         "summary": [
             "Markov Cluster algorithm"
@@ -4683,10 +4658,10 @@
     },
     "sitplus": {
         "tags": [
-            ":wxwidgets",
-            "field::medicine",
+            "interface::graphical",
             "uitoolkit::sdl",
-            "interface::graphical"
+            "field::medicine",
+            ":wxwidgets"
         ],
         "summary": [
             "Free software framework for ludic-therapeutic activities"
@@ -4702,32 +4677,32 @@
     },
     "ncbi-tools-x11": {
         "tags": [
-            "use::calculating",
-            ":viewing",
-            "field::biology:bioinformatics",
             ":searching",
-            "biology::peptidic",
-            "use::editing",
-            ":editing",
-            "role::program",
-            "field::biology",
-            "use::analysing",
-            ":analysing",
-            "interface::3d",
-            "network::client",
-            ":calculating",
-            ":graphical",
-            "implemented-in::c",
-            ":commandline",
-            ":x11",
-            ":biology:structural",
-            ":visualisation",
-            ":motif",
-            ":client",
-            "science::visualisation",
             "x11::application",
+            ":commandline",
+            ":biology:structural",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            ":viewing",
+            "field::biology",
+            "network::client",
+            ":motif",
+            ":x11",
+            "interface::3d",
+            "uitoolkit::motif",
+            "science::visualisation",
+            ":analysing",
+            "biology::peptidic",
+            "use::analysing",
+            ":calculating",
+            "role::program",
             "scope::utility",
-            "uitoolkit::motif"
+            ":editing",
+            ":client",
+            "use::editing",
+            ":graphical",
+            ":visualisation",
+            "use::calculating"
         ],
         "summary": [
             "NCBI libraries for biology applications (X-based utilities)"
@@ -4751,34 +4726,34 @@
     },
     "seaview": {
         "tags": [
-            "uitoolkit::fltk",
-            ":printing",
-            ":viewing",
-            "field::biology:bioinformatics",
-            "interface::graphical",
-            "use::editing",
-            "use::TODO",
-            "role::program",
-            ":c++",
-            "works-with-format::plaintext",
-            "field::biology",
-            "interface::commandline",
-            ":utility",
-            ":biological-sequence",
-            ":editing",
-            "interface::x11",
-            "network::client",
-            "implemented-in::c",
-            "use::comparing",
-            "works-with::biological-sequence",
-            ":x11",
-            ":plaintext",
-            ":fltk",
-            ":client",
-            "protocol::TODO",
-            ":application",
             "x11::application",
-            "scope::utility"
+            "protocol::TODO",
+            ":plaintext",
+            "interface::graphical",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "interface::x11",
+            ":viewing",
+            "field::biology",
+            "works-with-format::plaintext",
+            "network::client",
+            ":x11",
+            ":c++",
+            "role::program",
+            "scope::utility",
+            ":utility",
+            ":editing",
+            "use::TODO",
+            ":client",
+            "use::editing",
+            "use::comparing",
+            "interface::commandline",
+            ":printing",
+            ":biological-sequence",
+            ":fltk",
+            ":application",
+            "uitoolkit::fltk",
+            "works-with::biological-sequence"
         ],
         "summary": [
             "Multiplatform interface for sequence alignment and phylogeny"
@@ -4810,18 +4785,18 @@
     },
     "pondus": {
         "tags": [
-            ":graphical",
-            "field::TODO",
-            ":x11",
-            ":application",
-            "use::editing",
-            "implemented-in::python",
-            "role::program",
-            "field::medicine",
             ":gtk",
+            "role::program",
             "scope::utility",
+            "implemented-in::python",
+            "field::medicine",
+            "use::monitor",
+            "field::TODO",
+            ":application",
+            ":graphical",
+            "use::editing",
             "works-with::people",
-            "use::monitor"
+            ":x11"
         ],
         "summary": [
             "personal weight manager for GTK+2"
@@ -4837,9 +4812,9 @@
     },
     "bioperl-run": {
         "tags": [
+            "role::program",
             ":commandline",
             "implemented-in::perl",
-            "role::program",
             "field::biology:bioinformatics",
             "field::biology"
         ],
@@ -4873,30 +4848,30 @@
     },
     "gdpc": {
         "tags": [
-            ":jpg",
-            ":image:raster",
-            "scope::application",
-            "field::chemistry",
-            "use::viewing",
-            ":video",
-            ":viewing",
-            "works-with-format::jpg",
             "interface::graphical",
-            "interface::commandline",
-            "role::program",
-            "field::biology",
-            ":physics",
-            ":image",
-            ":graphical",
-            "implemented-in::c",
-            "uitoolkit::gtk",
-            ":x11",
             "works-with::3dmodel",
-            "works-with-format::png",
-            ":application",
-            ":png",
+            "implemented-in::c",
+            ":viewing",
+            "field::biology",
+            ":x11",
+            "use::viewing",
+            ":image:raster",
             "field::biology:structural",
-            ":3dmodel"
+            ":image",
+            "uitoolkit::gtk",
+            "works-with-format::jpg",
+            ":3dmodel",
+            "role::program",
+            ":video",
+            ":physics",
+            "scope::application",
+            "works-with-format::png",
+            "field::chemistry",
+            "interface::commandline",
+            ":jpg",
+            ":application",
+            ":graphical",
+            ":png"
         ],
         "summary": [
             "visualiser of molecular dynamic simulations"
@@ -4915,28 +4890,28 @@
             ""
         ],
         "summary": [
-            "Interval tree convenience classes for genomic data -- Python 2 library",
-            "Interval tree convenience classes for genomic data -- Python 3 library"
+            "Interval tree convenience classes for genomic data -- Python 3 library",
+            "Interval tree convenience classes for genomic data -- Python 2 library"
         ]
     },
     "adun.app": {
         "tags": [
-            ":analysing",
-            ":graphical",
-            ":x11",
-            ":organizing",
             ":db",
-            "suite::gnustep",
-            ":application",
             "x11::application",
-            "implemented-in::objc",
             "role::program",
             "use::TODO",
+            "works-with::3dmodel",
             ":viewing",
-            "field::biology",
             "field::biology:structural",
+            ":graphical",
+            "field::biology",
+            "implemented-in::objc",
+            ":application",
+            "suite::gnustep",
+            ":organizing",
             "uitoolkit::gnustep",
-            "works-with::3dmodel"
+            ":analysing",
+            ":x11"
         ],
         "summary": [
             "Molecular Simulator for GNUstep (GUI)"
@@ -4952,36 +4927,36 @@
     },
     "njplot": {
         "tags": [
-            "use::organizing",
-            ":organizing",
-            ":printing",
-            ":viewing",
-            "field::biology:bioinformatics",
-            "use::editing",
-            "works-with-format::plaintext",
-            "role::program",
-            ":editing",
-            "field::biology",
-            ":biological-sequence",
-            "use::analysing",
-            ":graphical",
-            "implemented-in::c",
-            "works-with::biological-sequence",
-            ":commandline",
-            ":x11",
-            ":plaintext",
-            ":program",
-            ":motif",
-            ":application",
             "x11::application",
+            ":commandline",
+            ":plaintext",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            ":viewing",
+            "field::biology",
+            "works-with-format::plaintext",
+            ":organizing",
+            ":motif",
+            ":x11",
+            "uitoolkit::motif",
+            ":program",
+            "use::analysing",
+            "role::program",
             "scope::utility",
-            "uitoolkit::motif"
+            ":editing",
+            "use::organizing",
+            "use::editing",
+            ":printing",
+            ":biological-sequence",
+            ":application",
+            ":graphical",
+            "works-with::biological-sequence"
         ],
         "summary": [
             "phylogenetic tree drawing program"
         ]
     },
-    "MSAmanda": {
+    "msamanda": {
         "tags": [
             "Proteomics"
         ],
@@ -4991,12 +4966,12 @@
     },
     "plink": {
         "tags": [
+            "use::analysing",
+            "role::program",
             ":commandline",
             "implemented-in::c++",
-            "role::program",
             "field::biology:bioinformatics",
-            "field::biology",
-            "use::analysing"
+            "field::biology"
         ],
         "summary": [
             "whole-genome association analysis toolset"
@@ -5034,7 +5009,7 @@
             "BioMAJ zipkin log tracing library"
         ]
     },
-    "PyMol-Jupyter": {
+    "pymol-jupyter": {
         "tags": [
             "Proteomics"
         ],
@@ -5092,10 +5067,10 @@
     },
     "gnumed-server": {
         "tags": [
-            "network::server",
-            "use::organizing",
+            "field::medicine",
             "role::program",
-            "field::medicine"
+            "network::server",
+            "use::organizing"
         ],
         "summary": [
             "medical practice management - server"
@@ -5111,51 +5086,51 @@
     },
     "emboss": {
         "tags": [
-            ":organizing",
-            ":text-formatting",
-            ":viewing",
-            "field::biology:bioinformatics",
             ":searching",
-            "scope::suite",
-            "use::converting",
-            ":editing",
-            "interface::commandline",
-            "role::program",
-            ":utility",
-            ":text",
-            "field::biology",
-            "works-with::db",
-            "use::analysing",
-            ":analysing",
-            "use::comparing",
-            "field::biology:molecular",
-            ":plaintext",
-            ":comparing",
             ":c",
-            "works-with-format::TODO",
             "works-with::TODO",
+            ":plaintext",
+            "field::biology:bioinformatics",
+            ":viewing",
+            ":converting",
+            "field::biology",
+            ":organizing",
+            "scope::suite",
+            ":text",
+            ":text-formatting",
+            ":analysing",
+            "use::converting",
+            "use::analysing",
+            "role::program",
+            ":editing",
+            ":utility",
             "Proteomics",
+            ":comparing",
+            "use::comparing",
+            "interface::commandline",
+            "field::biology:molecular",
             ":typesetting",
-            ":converting"
+            "works-with-format::TODO",
+            "works-with::db"
         ],
         "summary": [
-            "software analysis package",
-            "European molecular biology open software suite"
+            "European molecular biology open software suite",
+            "software analysis package"
         ]
     },
     "ginkgocadx": {
         "tags": [
-            ":wxwidgets",
-            "field::medicine:imaging",
-            "uitoolkit::gtk",
-            "uitoolkit::wxwidgets",
-            ":x11",
             "x11::application",
-            "interface::graphical",
-            "use::viewing",
             "role::program",
+            ":wxwidgets",
+            ":x11",
+            "uitoolkit::wxwidgets",
             "field::medicine",
-            ":viewing"
+            "use::viewing",
+            "interface::graphical",
+            ":viewing",
+            "uitoolkit::gtk",
+            "field::medicine:imaging"
         ],
         "summary": [
             "Medical Imaging Software and complete DICOM Viewer"
@@ -5171,13 +5146,13 @@
     },
     "acedb-other": {
         "tags": [
-            "interface::commandline",
-            ":utility",
             "role::program",
+            "scope::utility",
+            ":utility",
+            ":program",
             "field::biology:bioinformatics",
             "field::biology",
-            ":program",
-            "scope::utility"
+            "interface::commandline"
         ],
         "summary": [
             "retrieval of DNA or protein sequences"
@@ -5242,8 +5217,8 @@
     "bioconductor-hilbertvis": {
         "tags": [
             "implemented-in::r",
-            ":analysing",
             "field::biology:bioinformatics",
+            ":analysing",
             "field::biology"
         ],
         "summary": [
@@ -5266,14 +5241,6 @@
             "Alignment-based Exon Retrieval and Concatenation with Phylogenomic Applications"
         ]
     },
-    "Patchwork": {
-        "tags": [
-            "phylogenomics"
-        ],
-        "summary": [
-            "Alignment-based Exon Retrieval and Concatenation with Phylogenomic Applications"
-        ]
-    },
     "garli": {
         "tags": [
             ""
@@ -5284,14 +5251,14 @@
     },
     "probcons-extra": {
         "tags": [
+            "role::program",
             ":commandline",
-            ":plaintext",
+            "scope::utility",
             "implemented-in::c++",
             "works-with::TODO",
-            "role::program",
+            ":plaintext",
             "field::biology:bioinformatics",
-            "field::biology",
-            "scope::utility"
+            "field::biology"
         ],
         "summary": [
             "Extra programs from the probcons package"
@@ -5299,15 +5266,15 @@
     },
     "probcons": {
         "tags": [
-            "use::comparing",
+            "role::program",
             ":commandline",
-            ":plaintext",
+            "scope::utility",
             "implemented-in::c++",
             "works-with::TODO",
-            "role::program",
+            ":plaintext",
             "field::biology:bioinformatics",
             "field::biology",
-            "scope::utility"
+            "use::comparing"
         ],
         "summary": [
             "PROBabilistic CONSistency-based multiple sequence alignment"
@@ -5315,19 +5282,19 @@
     },
     "aeskulap": {
         "tags": [
-            "field::medicine:imaging",
-            ":client",
-            "uitoolkit::gtk",
-            "scope::application",
             "works-with::image",
             "x11::application",
-            "interface::graphical",
             "role::program",
             "field::medicine",
             ":c++",
-            "field::biology",
+            "interface::graphical",
+            "interface::x11",
             ":viewing",
-            "interface::x11"
+            "field::biology",
+            ":client",
+            "scope::application",
+            "uitoolkit::gtk",
+            "field::medicine:imaging"
         ],
         "summary": [
             "medical image viewer and DICOM network client"
@@ -5354,8 +5321,8 @@
             ""
         ],
         "summary": [
-            "Python3 bioinformatics utilities for high-throughput genomic sequencing",
-            "Python bioinformatics utilities for high-throughput genomic sequencing"
+            "Python bioinformatics utilities for high-throughput genomic sequencing",
+            "Python3 bioinformatics utilities for high-throughput genomic sequencing"
         ]
     },
     "bedtools-test": {
@@ -5384,26 +5351,26 @@
     },
     "ltrsift": {
         "tags": [
-            ":organizing",
-            ":viewing",
-            "field::biology:bioinformatics",
-            "use::browsing",
-            ":browsing",
-            "role::program",
-            ":gtk",
-            "field::biology",
-            "use::analysing",
-            ":graphical",
-            "implemented-in::c",
-            "uitoolkit::gtk",
-            "use::comparing",
-            ":commandline",
-            ":x11",
-            ":comparing",
-            ":program",
-            ":application",
             "x11::application",
-            "scope::utility"
+            ":commandline",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            ":viewing",
+            "field::biology",
+            ":organizing",
+            ":x11",
+            ":program",
+            "use::browsing",
+            "uitoolkit::gtk",
+            ":browsing",
+            "use::analysing",
+            "role::program",
+            "scope::utility",
+            ":comparing",
+            "use::comparing",
+            ":gtk",
+            ":application",
+            ":graphical"
         ],
         "summary": [
             "postprocessing and classification of LTR retrotransposons"
@@ -5411,18 +5378,18 @@
     },
     "clustalw": {
         "tags": [
-            ":TODO",
             "biology::peptidic",
-            "use::comparing",
-            ":commandline",
-            ":biology:bioinformatics",
-            "implemented-in::c++",
             ":text-mode",
-            "biology::format:aln",
-            "works-with-format::plaintext",
             "role::program",
+            ":commandline",
             ":utility",
-            "field::biology"
+            ":TODO",
+            "implemented-in::c++",
+            ":biology:bioinformatics",
+            "field::biology",
+            "works-with-format::plaintext",
+            "use::comparing",
+            "biology::format:aln"
         ],
         "summary": [
             "global multiple nucleotide or peptide sequence alignment"
@@ -5438,12 +5405,12 @@
     },
     "tabix": {
         "tags": [
-            "works-with-format::html",
-            "implemented-in::c",
+            ":calculating",
             "role::program",
             "works-with::text",
-            "science::calculation",
-            ":calculating"
+            "implemented-in::c",
+            "works-with-format::html",
+            "science::calculation"
         ],
         "summary": [
             "generic indexer for TAB-delimited genome position files"
@@ -5451,23 +5418,23 @@
     },
     "ctn": {
         "tags": [
-            ":graphical",
-            "implemented-in::java",
+            ":db",
+            "role::program",
+            ":commandline",
+            ":x11",
             "field::medicine:imaging",
             "implemented-in::c",
-            ":commandline",
-            ":web",
-            ":x11",
-            "scope::application",
-            ":db",
-            "use::converting",
             "works-with-format::TODO",
+            ":graphical",
+            ":web",
+            "scope::application",
+            ":image",
             ":image:raster",
             ":application",
-            "role::program",
             ":motif",
             "uitoolkit::athena",
-            ":image"
+            "use::converting",
+            "implemented-in::java"
         ],
         "summary": [
             "Central Test Node, a DICOM implementation for medical imaging"
@@ -5483,19 +5450,19 @@
     },
     "emboss-explorer": {
         "tags": [
-            ":perl",
-            ":TODO",
-            "web::application",
-            "web::cgi",
-            ":cgi",
             "role::plugin",
-            "suite::TODO",
-            ":application",
-            "interface::web",
             "role::program",
+            ":TODO",
             "biology::emboss",
+            ":cgi",
             "field::biology:bioinformatics",
-            "field::biology"
+            "interface::web",
+            ":application",
+            "field::biology",
+            "web::application",
+            "suite::TODO",
+            "web::cgi",
+            ":perl"
         ],
         "summary": [
             "web-based GUI to EMBOSS"
@@ -5503,9 +5470,9 @@
     },
     "aevol": {
         "tags": [
+            "interface::graphical",
             "interface::x11",
-            "role::program",
-            "interface::graphical"
+            "role::program"
         ],
         "summary": [
             "digital genetics model to run Evolution Experiments in silico"
@@ -5521,16 +5488,16 @@
     },
     "spades": {
         "tags": [
-            "works-with::biological-sequence",
             ":file",
-            ":python",
-            "interface::commandline",
+            "scope::utility",
             ":program",
             ":c++",
             "field::biology:bioinformatics",
             "field::biology",
+            ":python",
             "Genomics",
-            "scope::utility",
+            "works-with::biological-sequence",
+            "interface::commandline",
             "biology::nucleic-acids"
         ],
         "summary": [
@@ -5540,18 +5507,18 @@
     },
     "sibsim4": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            ":plaintext",
-            "works-with-format::TODO",
-            "works-with::TODO",
-            ":comparing",
-            "use::TODO",
+            ":searching",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            ":searching"
+            "works-with::TODO",
+            "use::TODO",
+            ":plaintext",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "works-with-format::TODO",
+            "field::biology",
+            ":comparing"
         ],
         "summary": [
             "align expressed RNA sequences on a DNA template"
@@ -5624,16 +5591,16 @@
     },
     "sleepyhead": {
         "tags": [
-            ":qt",
-            ":x11",
-            "science::data-acquisition",
-            "implemented-in::c++",
             "x11::application",
-            "interface::graphical",
             "role::program",
+            ":qt",
+            "implemented-in::c++",
             "field::medicine",
+            "science::data-acquisition",
+            "interface::graphical",
             "interface::x11",
-            "use::timekeeping"
+            "use::timekeeping",
+            ":x11"
         ],
         "summary": [
             "Sleep tracking software with a focus on monitoring CPAP treatment"
@@ -5649,15 +5616,15 @@
     },
     "pycorrfit": {
         "tags": [
+            "interface::graphical",
             "interface::x11",
-            "role::program",
-            "interface::graphical"
+            "role::program"
         ],
         "summary": [
             "tool for fitting correlation curves on a logarithmic plot"
         ]
     },
-    "PepNovo": {
+    "pepnovo": {
         "tags": [
             "Proteomics"
         ],
@@ -5674,13 +5641,13 @@
     },
     "bioperl": {
         "tags": [
-            ":biology:bioinformatics",
-            "implemented-in::perl",
             "devel::library",
             "role::devel-lib",
+            "implemented-in::perl",
             ":shared-lib",
-            "field::biology",
-            "devel::lang:perl"
+            ":biology:bioinformatics",
+            "devel::lang:perl",
+            "field::biology"
         ],
         "summary": [
             "Perl tools for computational molecular biology"
@@ -5694,9 +5661,9 @@
     },
     "nanosv": {
         "tags": [
+            "PacBio",
             "Nanopore",
-            "Structural Variants",
-            "PacBio"
+            "Structural Variants"
         ],
         "summary": [
             "NanoSV is a software package that can be used to identify structural genomic variations in long-read sequencing data"
@@ -5744,17 +5711,17 @@
     },
     "khmer": {
         "tags": [
-            ":biology:bioinformatics",
-            "implemented-in::c++",
-            ":filtering",
-            ":comparing",
-            ":python",
-            "interface::commandline",
             "role::program",
+            ":filtering",
+            "implemented-in::c++",
+            ":biology:bioinformatics",
             "field::biology",
+            ":python",
+            ":comparing",
+            "biology::format:fasta",
             ":analysing",
-            "biology::nucleic-acids",
-            "biology::format:fasta"
+            "interface::commandline",
+            "biology::nucleic-acids"
         ],
         "summary": [
             "in-memory DNA sequence kmer counting, filtering & graph traversal"
@@ -5786,16 +5753,16 @@
     },
     "bowtie": {
         "tags": [
-            "use::comparing",
-            ":commandline",
-            "implemented-in::c++",
-            "Genomics",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             ":utility",
             ":biological-sequence",
-            "use::analysing",
+            "implemented-in::c++",
+            "field::biology:bioinformatics",
+            "field::biology",
+            "Genomics",
+            "use::comparing",
             "science::calculation"
         ],
         "summary": [
@@ -5821,27 +5788,27 @@
     },
     "treeviewx": {
         "tags": [
-            ":wxwidgets",
-            "uitoolkit::wxwidgets",
-            ":pdf",
-            "use::viewing",
-            "field::biology:bioinformatics",
-            "works-with-format::pdf",
-            ":TODO",
-            "implemented-in::c++",
-            "role::program",
-            ":text",
-            "field::biology",
-            ":graphical",
+            "x11::application",
             ":commandline",
-            ":x11",
-            ":plaintext",
-            ":postscript",
-            ":program",
             ":svg",
             "works-with::TODO",
-            "x11::application",
-            "scope::utility"
+            ":plaintext",
+            "field::biology:bioinformatics",
+            "field::biology",
+            ":text",
+            ":x11",
+            ":pdf",
+            ":TODO",
+            ":program",
+            "implemented-in::c++",
+            "uitoolkit::wxwidgets",
+            "use::viewing",
+            "role::program",
+            "scope::utility",
+            ":wxwidgets",
+            "works-with-format::pdf",
+            ":graphical",
+            ":postscript"
         ],
         "summary": [
             "Displays and prints phylogenetic trees"
@@ -5849,13 +5816,13 @@
     },
     "circos": {
         "tags": [
-            "implemented-in::perl",
-            "use::viewing",
-            ":program",
             "role::program",
+            "implemented-in::perl",
+            ":program",
+            "use::viewing",
             "field::biology:bioinformatics",
-            "field::biology",
-            ":viewing"
+            ":viewing",
+            "field::biology"
         ],
         "summary": [
             "plotter for visualizing data"
@@ -5863,16 +5830,16 @@
     },
     "ctsim-help": {
         "tags": [
-            "uitoolkit::wxwidgets",
-            "x11::application",
-            "interface::graphical",
-            "use::viewing",
+            "interface::3d",
             ":3dmodel",
-            ":documentation",
+            "x11::application",
             ":program",
-            "field::biology",
+            "uitoolkit::wxwidgets",
+            "use::viewing",
+            "interface::graphical",
             "interface::x11",
-            "interface::3d"
+            ":documentation",
+            "field::biology"
         ],
         "summary": [
             "Online help file for CTSim"
@@ -5888,16 +5855,16 @@
     },
     "kmc": {
         "tags": [
-            "use::calculating",
-            ":commandline",
-            ":shell",
-            "implemented-in::c++",
-            ":calculation",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            "implemented-in::c++",
+            ":shell",
+            "field::biology:bioinformatics",
+            ":calculation",
+            "field::biology",
+            "use::calculating"
         ],
         "summary": [
             "count kmers in genomic sequences"
@@ -5913,12 +5880,12 @@
     },
     "autoclassweb": {
         "tags": [
-            "Genomics Proteomics Omics",
-            "Genomics Proteomics Omics Clustering Classification"
+            "Genomics Proteomics Omics Clustering Classification",
+            "Genomics Proteomics Omics"
         ],
         "summary": [
-            "AutoClassWeb: a simple web interface for Bayesian clustering",
-            "A web app to run AutoClass C Bayesian clustering"
+            "A web app to run AutoClass C Bayesian clustering",
+            "AutoClassWeb: a simple web interface for Bayesian clustering"
         ]
     },
     "cyvcf2": {
@@ -5926,8 +5893,8 @@
             ""
         ],
         "summary": [
-            "VCF parser based on htslib (Python 3)",
-            "VCF parser based on htslib (Python 2)"
+            "VCF parser based on htslib (Python 2)",
+            "VCF parser based on htslib (Python 3)"
         ]
     },
     "eosc-pilot": {
@@ -5962,16 +5929,16 @@
     },
     "tree-ppuzzle": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            "works-with::TODO",
-            ":comparing",
-            "works-with-format::plaintext",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            "works-with::TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
+            ":comparing",
+            "works-with-format::plaintext"
         ],
         "summary": [
             "Parallelized reconstruction of phylogenetic trees by maximum likelihood"
@@ -6019,12 +5986,12 @@
     },
     "plink1.9": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
+            "use::analysing",
             "role::program",
+            ":commandline",
             "field::biology:bioinformatics",
-            "field::biology",
-            "use::analysing"
+            "implemented-in::c",
+            "field::biology"
         ],
         "summary": [
             "whole-genome association analysis toolset"
@@ -6076,7 +6043,7 @@
             "DeepGOPlus is a novel method for predicting protein functions from protein sequences using deep neural networks combined with sequence similarity based predictions."
         ]
     },
-    "CellProfiler": {
+    "cellprofiler": {
         "tags": [],
         "summary": [
             "cell image analylsis software"
@@ -6084,13 +6051,13 @@
     },
     "interproscan": {
         "tags": [
-            "biology::nucleic",
-            "interface::commandline",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
             ":biological-sequence",
-            "biology::protein"
+            "biology::nucleic",
+            "field::biology:bioinformatics",
+            "biology::protein",
+            "field::biology",
+            "interface::commandline"
         ],
         "summary": [
             "Scan sequences against the InterPro protein signature databases."
@@ -6114,18 +6081,18 @@
     },
     "embassy-domalign": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            "suite::TODO",
-            "works-with-format::TODO",
-            ":plaintext",
-            "works-with::TODO",
-            ":comparing",
-            ":editing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
+            ":editing",
+            "works-with::TODO",
+            ":plaintext",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "works-with-format::TODO",
+            "field::biology",
+            ":comparing",
+            "suite::TODO",
             ":analysing"
         ],
         "summary": [
@@ -6134,9 +6101,9 @@
     },
     "bioconductor-edger": {
         "tags": [
-            ":commandline",
             "implemented-in::r",
             "field::biology:bioinformatics",
+            ":commandline",
             "field::biology"
         ],
         "summary": [
@@ -6161,14 +6128,14 @@
     },
     "snpomatic": {
         "tags": [
-            "implemented-in::c",
-            "use::comparing",
-            ":commandline",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            ":biological-sequence"
+            ":biological-sequence",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
+            "use::comparing"
         ],
         "summary": [
             "fast, stringent short-read mapping software"
@@ -6216,15 +6183,15 @@
     },
     "rnahybrid": {
         "tags": [
-            "implemented-in::c",
-            ":TODO",
-            ":commandline",
-            "works-with::TODO",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            ":TODO",
+            "works-with::TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology"
         ],
         "summary": []
     },
@@ -6264,9 +6231,9 @@
     "hunspell-de-med": {
         "tags": [
             "role::app-data",
-            "culture::german",
-            ":checking",
             "field::medicine",
+            ":checking",
+            "culture::german",
             "made-of::dictionary"
         ],
         "summary": [
@@ -6283,16 +6250,16 @@
     },
     "ncbi-epcr": {
         "tags": [
+            ":searching",
+            "role::program",
             ":commandline",
+            "scope::utility",
+            "use::checking",
             "implemented-in::c++",
             "works-with::TODO",
-            "works-with-format::plaintext",
-            "role::program",
-            "use::checking",
             "field::biology:bioinformatics",
             "field::biology",
-            "scope::utility",
-            ":searching"
+            "works-with-format::plaintext"
         ],
         "summary": [
             "Tool to test a DNA sequence for the presence of sequence tagged sites"
@@ -6311,10 +6278,10 @@
             ""
         ],
         "summary": [
-            "Apache Avro serialization system (Python 3 library)",
             "Apache Avro serialization system ?? Python 2 library",
             "Apache Avro serialization system ?? Python 3 library",
-            "Apache Avro serialization system (Python 2 library)"
+            "Apache Avro serialization system (Python 2 library)",
+            "Apache Avro serialization system (Python 3 library)"
         ]
     },
     "estscan": {
@@ -6361,16 +6328,16 @@
     },
     "mummer": {
         "tags": [
-            ":TODO",
-            "use::comparing",
+            "role::program",
             ":commandline",
-            ":plaintext",
+            "scope::utility",
+            ":TODO",
             "implemented-in::c++",
             "works-with::TODO",
-            "role::program",
+            ":plaintext",
             "field::biology:bioinformatics",
             "field::biology",
-            "scope::utility"
+            "use::comparing"
         ],
         "summary": [
             "Efficient sequence alignment of full genomes"
@@ -6378,9 +6345,9 @@
     },
     "bcftools": {
         "tags": [
-            "Genomics",
             "implemented-in::c",
-            "role::program"
+            "role::program",
+            "Genomics"
         ],
         "summary": [
             "Bcftools is a program for variant calling and manipulating VCFs and BCFs"
@@ -6420,13 +6387,13 @@
     },
     "barrnap": {
         "tags": [
+            "role::program",
             ":commandline",
             "implemented-in::perl",
-            "role::program",
+            ":biological-sequence",
             "field::biology:bioinformatics",
-            "field::biology",
             "use::searching",
-            ":biological-sequence"
+            "field::biology"
         ],
         "summary": [
             "rapid ribosomal RNA prediction"
@@ -6477,8 +6444,8 @@
             ""
         ],
         "summary": [
-            "Python high-throughput genome sequencing read analysis utilities",
             "high-throughput genome sequencing read analysis utilities",
+            "Python high-throughput genome sequencing read analysis utilities",
             "Python3 high-throughput genome sequencing read analysis utilities"
         ]
     },
@@ -6487,8 +6454,8 @@
             ""
         ],
         "summary": [
-            "common utilities to ease the development of Python packages (Python 3)",
-            "common utilities to ease the development of Python packages (Python 2)"
+            "common utilities to ease the development of Python packages (Python 2)",
+            "common utilities to ease the development of Python packages (Python 3)"
         ]
     },
     "profphd-utils": {
@@ -6518,18 +6485,18 @@
     },
     "praat": {
         "tags": [
-            ":graphical",
-            "uitoolkit::gtk",
-            ":x11",
-            "field::linguistics",
-            "implemented-in::c++",
-            "works-with::audio",
-            ":application",
             "x11::application",
-            "role::program",
-            "field::medicine",
             "uitoolkit::motif",
-            ":wav"
+            "role::program",
+            "implemented-in::c++",
+            "field::medicine",
+            ":wav",
+            ":application",
+            ":graphical",
+            "field::linguistics",
+            "works-with::audio",
+            "uitoolkit::gtk",
+            ":x11"
         ],
         "summary": [
             "program for speech analysis and synthesis"
@@ -6575,16 +6542,16 @@
     },
     "augustus": {
         "tags": [
-            "works-with::biological-sequence",
-            ":commandline",
-            "implemented-in::c++",
+            "use::analysing",
             "role::program",
+            ":commandline",
             ":utility",
+            ":biological-sequence",
+            "implemented-in::c++",
+            "uitoolkit::ncurses",
+            "works-with::biological-sequence",
             "field::biology:bioinformatics",
             "field::biology",
-            "uitoolkit::ncurses",
-            ":biological-sequence",
-            "use::analysing",
             "science::calculation"
         ],
         "summary": [
@@ -6618,23 +6585,23 @@
     },
     "perlprimer": {
         "tags": [
-            "scope::utility",
-            ":perl",
             "biology::peptidic",
-            ":x11",
-            ":biology:bioinformatics",
-            "implemented-in::perl",
-            ":application",
-            ":tk",
-            "biology::format:aln",
-            "interface::graphical",
-            "works-with-format::plaintext",
-            "interface::commandline",
-            "role::program",
-            "field::biology",
-            ":biology:molecular",
             "use::analysing",
-            "network::client"
+            "role::program",
+            "scope::utility",
+            ":tk",
+            "implemented-in::perl",
+            ":biology:bioinformatics",
+            "interface::graphical",
+            ":application",
+            ":biology:molecular",
+            "field::biology",
+            "interface::commandline",
+            "works-with-format::plaintext",
+            "network::client",
+            "biology::format:aln",
+            ":perl",
+            ":x11"
         ],
         "summary": [
             "Graphical design of primers for PCR"
@@ -6642,17 +6609,17 @@
     },
     "fastdnaml": {
         "tags": [
-            "implemented-in::c",
-            ":TODO",
-            ":commandline",
-            "works-with-format::TODO",
-            ":comparing",
-            "works-with-format::plaintext",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            ":TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "works-with-format::TODO",
+            "field::biology",
+            ":comparing",
+            "works-with-format::plaintext"
         ],
         "summary": [
             "Tool for construction of phylogenetic trees of DNA sequences"
@@ -6685,10 +6652,10 @@
     },
     "wgerman-medical": {
         "tags": [
+            "role::app-data",
             "culture::german",
-            "use::checking",
             "made-of::dictionary",
-            "role::app-data"
+            "use::checking"
         ],
         "summary": []
     },
@@ -6702,16 +6669,16 @@
     },
     "autogrid-test": {
         "tags": [
-            ":dictionary",
+            "use::checking",
             "made-of::TODO",
             "role::app-data",
+            "use::TODO",
             ":app-data",
             ":checking",
-            "role::TODO",
-            "use::TODO",
-            "use::checking",
+            "field::biology:structural",
             "field::biology",
-            "field::biology:structural"
+            "role::TODO",
+            ":dictionary"
         ],
         "summary": [
             "test files for AutoGrid"
@@ -6735,16 +6702,16 @@
     },
     "theseus": {
         "tags": [
-            "implemented-in::c",
             "biology::peptidic",
-            "use::comparing",
-            ":plaintext",
-            ":biology:structural",
-            "interface::commandline",
+            "use::analysing",
             ":program",
+            ":biology:structural",
+            ":plaintext",
             "field::biology:bioinformatics",
+            "implemented-in::c",
             "field::biology",
-            "use::analysing"
+            "use::comparing",
+            "interface::commandline"
         ],
         "summary": [
             "superimpose macromolecules using maximum likelihood"
@@ -6761,14 +6728,14 @@
     "mobyle-programs": {
         "tags": [
             ":examples",
-            "devel::examples",
-            "role::examples",
             "field::biology:bioinformatics",
-            "field::biology"
+            "devel::examples",
+            "field::biology",
+            "role::examples"
         ],
         "summary": [
-            "Program descriptions for the mobyle portal",
-            "program descriptions for the mobyle portal"
+            "program descriptions for the mobyle portal",
+            "Program descriptions for the mobyle portal"
         ]
     },
     "mialmpick": {
@@ -6781,14 +6748,14 @@
     },
     "minimap": {
         "tags": [
-            "implemented-in::c",
-            "works-with::biological-sequence",
-            ":commandline",
+            ":calculating",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            ":calculating"
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
+            "works-with::biological-sequence"
         ],
         "summary": [
             "tool for approximate mapping of long biosequences such as DNA reads"
@@ -6800,8 +6767,8 @@
             "Proteomics"
         ],
         "summary": [
-            "short-read assembly method to build de novo draft assembly",
-            "a novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes"
+            "a novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes",
+            "short-read assembly method to build de novo draft assembly"
         ]
     },
     "parsinsert-testdata": {
@@ -6846,19 +6813,19 @@
     },
     "raster3d": {
         "tags": [
-            "works-with-format::jpg",
-            "implemented-in::fortran",
-            ":image:raster",
-            ":commandline",
-            "scope::application",
             "works-with::image",
-            ":png",
             "role::program",
-            ":viewing",
-            "field::biology",
+            ":commandline",
+            "works-with::3dmodel",
+            "implemented-in::fortran",
             ":converting",
             "field::biology:structural",
-            "works-with::3dmodel"
+            ":viewing",
+            "field::biology",
+            "scope::application",
+            ":image:raster",
+            ":png",
+            "works-with-format::jpg"
         ],
         "summary": [
             "tools for generating images of proteins or other molecules"
@@ -6899,10 +6866,10 @@
     },
     "dicomscope": {
         "tags": [
-            "use::viewing",
-            "field::medicine:imaging",
             "field::medicine",
-            "role::program"
+            "role::program",
+            "use::viewing",
+            "field::medicine:imaging"
         ],
         "summary": [
             "OFFIS DICOM Viewer"
@@ -6926,15 +6893,15 @@
     },
     "readseq": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            ":plaintext",
-            "use::converting",
-            "works-with::TODO",
             "role::program",
+            ":commandline",
+            "scope::utility",
+            "works-with::TODO",
+            ":plaintext",
             "field::biology:bioinformatics",
+            "implemented-in::c",
             "field::biology",
-            "scope::utility"
+            "use::converting"
         ],
         "summary": [
             "Conversion between sequence formats"
@@ -6943,16 +6910,16 @@
     "proda": {
         "tags": [
             "biology::peptidic",
-            "use::comparing",
-            ":plaintext",
-            "works-with::TODO",
-            "interface::commandline",
+            "use::analysing",
             "role::program",
+            ":utility",
             ":c++",
+            "works-with::TODO",
+            ":plaintext",
             "field::biology:bioinformatics",
             "field::biology",
-            ":utility",
-            "use::analysing"
+            "use::comparing",
+            "interface::commandline"
         ],
         "summary": [
             "multiple alignment of protein sequences"
@@ -6968,17 +6935,17 @@
         "tags": [
             ":timekeeping",
             "x11::application",
-            "interface::graphical",
             "role::program",
             "field::medicine",
-            ":viewing",
-            "interface::x11"
+            "interface::graphical",
+            "interface::x11",
+            ":viewing"
         ],
         "summary": [
             "track menstrual cycles and predict fertility periods"
         ]
     },
-    "Control-FREEC": {
+    "control-freec": {
         "tags": [
             "Genomics"
         ],
@@ -7004,18 +6971,18 @@
     },
     "mencal": {
         "tags": [
+            "scope::utility",
             "implemented-in::perl",
-            "interface::commandline",
             ":program",
             "field::medicine",
-            "scope::utility",
-            "use::timekeeping"
+            "use::timekeeping",
+            "interface::commandline"
         ],
         "summary": [
             "menstruation calendar"
         ]
     },
-    "X!Tandem": {
+    "x!tandem": {
         "tags": [
             "Proteomics"
         ],
@@ -7049,17 +7016,17 @@
     },
     "genometools": {
         "tags": [
-            "implemented-in::c",
-            "devel::lang:python",
-            ":devel-lib",
             "devel::library",
+            "role::program",
+            ":devel-lib",
             "implemented-in::python",
             ":lua",
             "field::biology:bioinformatics",
+            "implemented-in::c",
             "field::biology",
-            "interface::commandline",
-            "role::program",
-            ":ncurses"
+            ":ncurses",
+            "devel::lang:python",
+            "interface::commandline"
         ],
         "summary": [
             "Python bindings for genometools",
@@ -7071,24 +7038,24 @@
             ""
         ],
         "summary": [
+            "library for reading Oxford Nanopore Fast5 files -- Python 2",
             "utilities for manipulating Oxford Nanopore Fast5 files",
-            "library for reading Oxford Nanopore Fast5 files -- Python 3",
-            "library for reading Oxford Nanopore Fast5 files -- Python 2"
+            "library for reading Oxford Nanopore Fast5 files -- Python 3"
         ]
     },
     "biosquid": {
         "tags": [
-            "implemented-in::c",
-            "use::comparing",
-            ":TODO",
-            ":commandline",
-            "works-with-format::TODO",
-            ":editing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            ":converting"
+            ":editing",
+            ":TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            ":converting",
+            "works-with-format::TODO",
+            "field::biology",
+            "use::comparing"
         ],
         "summary": [
             "utilities for biological sequence analysis"
@@ -7120,15 +7087,15 @@
     },
     "ssake": {
         "tags": [
-            ":commandline",
-            ":shell",
+            "use::analysing",
+            "role::program",
+            "scope::utility",
             "implemented-in::perl",
             "implemented-in::python",
-            "role::program",
+            ":commandline",
             ":utility",
-            "field::biology",
-            "scope::utility",
-            "use::analysing"
+            ":shell",
+            "field::biology"
         ],
         "summary": [
             "genomics application for assembling millions of very short DNA sequences"
@@ -7159,7 +7126,7 @@
             "PRIDE Cluster algorithm to cluster heterogeneous mass spectra"
         ]
     },
-    "Aliscore": {
+    "aliscore": {
         "tags": [
             "Genomics"
         ],
@@ -7233,12 +7200,12 @@
     },
     "snp-sites": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
+            "use::analysing",
             "role::program",
+            ":commandline",
             "field::biology:bioinformatics",
-            "field::biology",
-            "use::analysing"
+            "implemented-in::c",
+            "field::biology"
         ],
         "summary": [
             "Binary code for the package snp-sites"
@@ -7252,7 +7219,7 @@
             "NCBI Entrez utilities on the command line"
         ]
     },
-    "TOPPAS": {
+    "toppas": {
         "tags": [
             "Proteomics"
         ],
@@ -7276,7 +7243,7 @@
             "Python modules for MEG and EEG data analysis"
         ]
     },
-    "OpenMS": {
+    "openms": {
         "tags": [
             "Proteomics"
         ],
@@ -7295,15 +7262,15 @@
     "bioconductor-qvalue": {
         "tags": [
             "biology::peptidic",
-            "use::comparing",
+            ":biological-sequence",
             ":biology:bioinformatics",
-            ":r",
             ":medicine",
             ":statistics",
-            "interface::commandline",
+            ":r",
             "field::biology",
-            "devel::lang:r",
-            ":biological-sequence"
+            "use::comparing",
+            "interface::commandline",
+            "devel::lang:r"
         ],
         "summary": [
             "GNU R package for Q-value estimation for FDR control"
@@ -7327,27 +7294,27 @@
     },
     "imagej": {
         "tags": [
-            "works-with::image:raster",
-            "works-with-format::jpg",
+            "use::analysing",
             "implemented-in::java",
-            "works-with-format::gif",
-            ":image:raster",
-            ":x11",
             "works-with::image",
-            ":application",
             "x11::application",
-            "interface::graphical",
-            ":png",
-            "use::editing",
             "role::program",
             "field::medicine",
+            "interface::graphical",
             ":viewing",
-            "use::analysing",
-            ":tiff"
+            ":tiff",
+            ":image:raster",
+            "works-with::image:raster",
+            ":application",
+            "use::editing",
+            "works-with-format::gif",
+            ":png",
+            "works-with-format::jpg",
+            ":x11"
         ],
         "summary": [
-            "Image processing program inspired by NIH Image",
-            "Image processing program with a focus on microscopy images"
+            "Image processing program with a focus on microscopy images",
+            "Image processing program inspired by NIH Image"
         ]
     },
     "king-probe": {
@@ -7401,21 +7368,21 @@
     },
     "medcon": {
         "tags": [
+            "works-with::image",
+            "x11::application",
+            "role::program",
             "works-with::image:raster",
-            ":graphical",
             "implemented-in::c",
             "uitoolkit::gtk",
-            ":image:raster",
-            ":x11",
-            "works-with::image",
-            "use::converting",
-            ":application",
-            "x11::application",
-            "interface::commandline",
-            "role::program",
+            ":graphical",
             "field::biology",
+            ":image",
+            ":image:raster",
             ":converting",
-            ":image"
+            ":application",
+            "interface::commandline",
+            "use::converting",
+            ":x11"
         ],
         "summary": [
             "Medical Image (DICOM, ECAT, ...) conversion tool"
@@ -7447,10 +7414,10 @@
     },
     "bioconductor-limma": {
         "tags": [
-            "interface::commandline",
-            "biology::nucleic-acids",
             "field::biology:bioinformatics",
-            ":r"
+            ":r",
+            "interface::commandline",
+            "biology::nucleic-acids"
         ],
         "summary": [
             "linear models for microarray data"
@@ -7461,8 +7428,8 @@
             ""
         ],
         "summary": [
-            "Python-3 bindings for the MIA image processing library",
-            "Python-2 bindings for the MIA image processing library"
+            "Python-2 bindings for the MIA image processing library",
+            "Python-3 bindings for the MIA image processing library"
         ]
     },
     "hisat2": {
@@ -7478,8 +7445,8 @@
             ""
         ],
         "summary": [
-            "tools for manipulating Pacific Biosciences HDF5 files -- Python 2 library",
-            "tools for manipulating Pacific Biosciences HDF5 files"
+            "tools for manipulating Pacific Biosciences HDF5 files",
+            "tools for manipulating Pacific Biosciences HDF5 files -- Python 2 library"
         ]
     },
     "fsa": {
@@ -7516,16 +7483,16 @@
     },
     "amap-align": {
         "tags": [
+            "use::analysing",
+            "role::program",
             ":commandline",
+            "scope::utility",
             "implemented-in::c++",
             "works-with::TODO",
-            ":comparing",
-            "works-with-format::plaintext",
-            "role::program",
             "field::biology:bioinformatics",
             "field::biology",
-            "scope::utility",
-            "use::analysing"
+            ":comparing",
+            "works-with-format::plaintext"
         ],
         "summary": [
             "Protein multiple alignment by sequence annealing"
@@ -7573,11 +7540,11 @@
     },
     "biosquid-dev": {
         "tags": [
-            "implemented-in::c",
-            ":biology:bioinformatics",
             "devel::library",
             "role::devel-lib",
             "devel::lang:c",
+            ":biology:bioinformatics",
+            "implemented-in::c",
             "field::biology"
         ],
         "summary": [
@@ -7610,12 +7577,12 @@
     },
     "rna-star": {
         "tags": [
+            "use::analysing",
             "role::program",
+            ":biological-sequence",
             ":c++",
             "field::biology:bioinformatics",
             "field::biology",
-            ":biological-sequence",
-            "use::analysing",
             "biology::nucleic-acids"
         ],
         "summary": [
@@ -7657,15 +7624,15 @@
             ""
         ],
         "summary": [
-            "Clean biological sequences from high-throughput sequencing reads",
             "Clean biological sequences from high-throughput sequencing reads (Python 3)",
+            "Clean biological sequences from high-throughput sequencing reads",
             "Clean biological sequences from high-throughput sequencing reads (Python 2)"
         ]
     },
     "openslide-tools": {
         "tags": [
-            "scope::utility",
-            "role::program"
+            "role::program",
+            "scope::utility"
         ],
         "summary": [
             "Manipulation and conversion tools for OpenSlide"
@@ -7721,15 +7688,15 @@
     },
     "gbrowse": {
         "tags": [
-            ":web",
-            ":cgi",
-            "implemented-in::perl",
-            ":application",
-            "use::viewing",
+            "use::analysing",
             "role::program",
+            "implemented-in::perl",
+            ":cgi",
+            "use::viewing",
             "field::biology:bioinformatics",
-            "field::biology",
-            "use::analysing"
+            ":application",
+            ":web",
+            "field::biology"
         ],
         "summary": [
             "GMOD Generic Genome Browser"
@@ -7737,29 +7704,29 @@
     },
     "gff2aplot": {
         "tags": [
-            ":shell",
-            ":image:vector",
-            "use::viewing",
-            "field::biology:bioinformatics",
-            ":perl",
-            ":TODO",
-            ":biology:bioinformatics",
-            "use::converting",
-            "implemented-in::perl",
-            "interface::commandline",
-            "devel::library",
-            "role::devel-lib",
-            ":text",
-            "field::biology",
-            ":image",
-            "implemented-in::c",
             ":commandline",
             ":plaintext",
-            ":postscript",
+            ":shell",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
+            ":text",
+            ":TODO",
             ":program",
+            "use::viewing",
+            ":image:vector",
+            ":image",
+            "use::converting",
+            "devel::library",
+            "scope::utility",
+            "implemented-in::perl",
             "devel::lang:perl",
+            "interface::commandline",
+            "role::devel-lib",
+            ":biology:bioinformatics",
             "interface::shell",
-            "scope::utility"
+            ":postscript",
+            ":perl"
         ],
         "summary": [
             "pair-wise alignment-plots for genomic sequences in PostScript"
@@ -7778,19 +7745,19 @@
             ""
         ],
         "summary": [
-            "C++11 library for the DICOM standard (Python 3 wrappers)",
             "C++11 library for the DICOM standard (application)",
+            "C++11 library for the DICOM standard (Python 3 wrappers)",
             "C++11 library for the DICOM standard (Python wrappers)"
         ]
     },
     "infernal": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
+            "use::analysing",
             "role::program",
+            ":commandline",
             "field::biology:bioinformatics",
-            "field::biology",
-            "use::analysing"
+            "implemented-in::c",
+            "field::biology"
         ],
         "summary": [
             "inference of RNA secondary structural alignments"
@@ -7836,16 +7803,16 @@
     },
     "tigr-glimmer": {
         "tags": [
-            ":TODO",
+            "role::program",
             ":commandline",
-            ":plaintext",
+            "scope::utility",
+            ":TODO",
             "implemented-in::c++",
             "works-with::TODO",
-            "role::program",
+            ":plaintext",
             "field::biology:bioinformatics",
-            "field::biology",
             "use::searching",
-            "scope::utility"
+            "field::biology"
         ],
         "summary": [
             "Gene detection in archea and bacteria"
@@ -7877,16 +7844,16 @@
     },
     "tree-puzzle": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            "works-with::TODO",
-            ":comparing",
-            "works-with-format::plaintext",
+            "use::analysing",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            "use::analysing"
+            "works-with::TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology",
+            ":comparing",
+            "works-with-format::plaintext"
         ],
         "summary": [
             "Reconstruction of phylogenetic trees by maximum likelihood"
@@ -7910,15 +7877,15 @@
     },
     "miniasm": {
         "tags": [
-            "use::calculating",
-            ":c",
-            "use::comparing",
-            ":calculation",
-            "interface::commandline",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            "use::comparing",
             ":biological-sequence",
+            ":c",
+            "field::biology:bioinformatics",
+            ":calculation",
+            "field::biology",
+            "use::calculating",
+            "interface::commandline",
             "biology::nucleic-acids"
         ],
         "summary": [
@@ -7930,8 +7897,8 @@
             ""
         ],
         "summary": [
-            "map Pacific Biosciences reads to reference DNA sequences (Python2)",
-            "map Pacific Biosciences reads to reference DNA sequences"
+            "map Pacific Biosciences reads to reference DNA sequences",
+            "map Pacific Biosciences reads to reference DNA sequences (Python2)"
         ]
     },
     "cnvkit": {
@@ -7992,14 +7959,14 @@
     },
     "staden-io-lib-utils": {
         "tags": [
-            ":c",
             "biology::peptidic",
-            "interface::commandline",
+            "use::analysing",
             "role::program",
             ":utility",
+            ":c",
             "field::biology:bioinformatics",
             "field::biology",
-            "use::analysing"
+            "interface::commandline"
         ],
         "summary": [
             "programs for maniuplating DNA sequencing files",
@@ -8080,7 +8047,7 @@
             "JBrowse is a fast, embeddable genome browser built completely with JavaScript and HTML5, with optional run-once data formatting tools written in Perl."
         ]
     },
-    "ProteinProphet": {
+    "proteinprophet": {
         "tags": [
             "Proteomics"
         ],
@@ -8096,10 +8063,10 @@
     },
     "abacas": {
         "tags": [
-            ":commandline",
-            "implemented-in::perl",
             ":text-mode",
             "role::program",
+            ":commandline",
+            "implemented-in::perl",
             ":utility",
             "field::biology:bioinformatics",
             "field::biology"
@@ -8119,18 +8086,18 @@
     },
     "xmedcon": {
         "tags": [
-            ":graphical",
+            ":gtk",
+            "works-with::image",
+            "x11::application",
+            "role::program",
+            "scope::utility",
             "implemented-in::c",
             ":image:raster",
-            ":x11",
-            "works-with::image",
-            "use::converting",
-            "x11::application",
-            "interface::commandline",
-            "role::program",
-            ":gtk",
+            ":graphical",
             "field::biology",
-            "scope::utility"
+            "interface::commandline",
+            "use::converting",
+            ":x11"
         ],
         "summary": [
             "Medical Image (DICOM, ECAT, ...) conversion tool (GUI)"
@@ -8154,15 +8121,15 @@
     },
     "loki": {
         "tags": [
-            "implemented-in::c",
+            "use::analysing",
             ":TODO",
-            "works-with::TODO",
-            "interface::commandline",
-            ":program",
-            "use::TODO",
-            "field::biology",
             "scope::utility",
-            "use::analysing"
+            ":program",
+            "works-with::TODO",
+            "use::TODO",
+            "implemented-in::c",
+            "field::biology",
+            "interface::commandline"
         ],
         "summary": [
             "MCMC linkage analysis on general pedigrees"
@@ -8194,9 +8161,9 @@
     },
     "emboss-test": {
         "tags": [
+            "role::app-data",
             "field::biology:bioinformatics",
-            "field::biology",
-            "role::app-data"
+            "field::biology"
         ],
         "summary": [
             "test files for the EMBOSS package"
@@ -8220,19 +8187,19 @@
     },
     "fitbit": {
         "tags": [
-            "",
-            "devel::lang:python",
-            "science::data-acquisition",
-            ":python",
             "devel::library",
+            "",
             "role::devel-lib",
             "field::medicine",
-            "field::statistics"
+            "science::data-acquisition",
+            ":python",
+            "field::statistics",
+            "devel::lang:python"
         ],
         "summary": [
+            "FitBit REST API Client Implementation",
             "FitBit REST API Client Implementation - Python 3",
-            "FitBit REST API Client Implementation - Python 2",
-            "FitBit REST API Client Implementation"
+            "FitBit REST API Client Implementation - Python 2"
         ]
     },
     "jaligner": {
@@ -8245,11 +8212,11 @@
     },
     "ballview": {
         "tags": [
-            ":application",
-            "interface::graphical",
-            "uitoolkit::qt",
             "role::program",
-            "interface::x11"
+            "uitoolkit::qt",
+            "interface::graphical",
+            "interface::x11",
+            ":application"
         ],
         "summary": [
             "Python bindings for VIEW-parts of the Biochemical Algorithms Library",
@@ -8264,22 +8231,22 @@
     },
     "artemis": {
         "tags": [
+            "use::analysing",
+            "x11::application",
+            "role::program",
+            ":commandline",
+            "scope::utility",
+            ":program",
+            ":x11",
+            ":editing",
+            "field::biology:bioinformatics",
+            ":application",
             ":graphical",
-            "implemented-in::java",
+            "field::biology",
+            ":comparing",
             "use::comparing",
             "works-with::biological-sequence",
-            ":commandline",
-            ":x11",
-            ":application",
-            "x11::application",
-            ":comparing",
-            ":editing",
-            ":program",
-            "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
-            "scope::utility",
-            "use::analysing"
+            "implemented-in::java"
         ],
         "summary": [
             "genome browser and annotation tool"
@@ -8295,17 +8262,17 @@
     },
     "melting-gui": {
         "tags": [
-            ":graphical",
-            ":x11",
-            "field::biology:molecular",
-            "works-with::TODO",
-            "implemented-in::perl",
-            ":tk",
+            "use::analysing",
             "x11::application",
+            "field::biology:molecular",
             "role::program",
-            "field::biology",
+            "implemented-in::perl",
             "scope::utility",
-            "use::analysing"
+            "works-with::TODO",
+            ":graphical",
+            "field::biology",
+            ":tk",
+            ":x11"
         ],
         "summary": [
             "graphical interface to compute the melting temperature of nucleic acid duplex"
@@ -8329,17 +8296,17 @@
     },
     "exonerate": {
         "tags": [
-            "implemented-in::c",
-            ":TODO",
-            ":commandline",
-            "works-with-format::TODO",
-            "works-with-format::plaintext",
-            "use::TODO",
+            ":searching",
             "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
+            ":commandline",
             "scope::utility",
-            ":searching"
+            ":TODO",
+            "use::TODO",
+            "field::biology:bioinformatics",
+            "implemented-in::c",
+            "works-with-format::TODO",
+            "field::biology",
+            "works-with-format::plaintext"
         ],
         "summary": [
             "generic tool for pairwise sequence comparison"
@@ -8347,14 +8314,14 @@
     },
     "mobyle": {
         "tags": [
-            ":cgi",
-            ":application",
-            "interface::web",
-            ":python",
             "role::program",
-            "field::biology:bioinformatics",
+            ":cgi",
             "devel::web",
-            "field::biology"
+            "field::biology:bioinformatics",
+            "interface::web",
+            ":application",
+            "field::biology",
+            ":python"
         ],
         "summary": [
             "Web portal that provides web forms for command-line software"
@@ -8368,21 +8335,21 @@
             "Bayesian MCMC phylogenetic inference"
         ]
     },
-    "Biocontainers debian based image": {
+    "biocontainers debian based image": {
         "tags": [],
         "summary": []
     },
     "biocontainers": {
         "tags": [
             "Metabolomics",
+            "Transcriptomics",
             "Proteomics",
-            "Genomics",
             "General",
-            "Transcriptomics"
+            "Genomics"
         ],
         "summary": [
-            "Base image for BioDocker",
-            "Base image for BioContainers based on Alpine Linux"
+            "Base image for BioContainers based on Alpine Linux",
+            "Base image for BioDocker"
         ]
     },
     "bioconductor-savr": {
@@ -8411,15 +8378,15 @@
     },
     "emboss-lib": {
         "tags": [
-            "implemented-in::c",
-            ":commandline",
-            ":biology:bioinformatics",
             "devel::library",
+            "role::program",
+            ":commandline",
             "role::devel-lib",
             "devel::lang:c",
-            "role::program",
-            "field::biology",
-            ":shared-lib"
+            ":shared-lib",
+            ":biology:bioinformatics",
+            "implemented-in::c",
+            "field::biology"
         ],
         "summary": [
             "EMBOSS Libraries"
@@ -8447,7 +8414,7 @@
             "BioConductor representation and manipulation of short genomic alignments"
         ]
     },
-    "DIA-Umpire": {
+    "dia-umpire": {
         "tags": [
             "Proteomics"
         ],
@@ -8472,12 +8439,12 @@
     },
     "ncbi-blast-plus-legacy": {
         "tags": [
-            "implemented-in::shell",
-            ":commandline",
             "role::program",
+            ":commandline",
+            "scope::utility",
             "field::biology:bioinformatics",
             "field::biology",
-            "scope::utility"
+            "implemented-in::shell"
         ],
         "summary": [
             "NCBI Blast legacy call script"
@@ -8486,29 +8453,29 @@
     "cwltool": {
         "tags": [
             "",
-            "admin::virtualization",
-            ":laptop",
-            "science::calculation",
-            ":software:package",
-            "works-with::semantic-data",
-            ":biology:bioinformatics",
-            ":virtual",
             "implemented-in::python",
-            "interface::commandline",
-            ":server",
-            ":biology:molecular",
-            "use::analysing",
-            ":physics",
-            "field::astronomy",
-            "admin::automation",
             ":biology:structural",
-            ":medicine",
+            ":virtual",
+            "works-with::semantic-data",
+            "field::astronomy",
+            ":software:package",
             ":program",
+            ":biology:molecular",
+            "science::calculation",
             ":biology",
-            "works-with-format::TODO",
-            ":filtering",
+            "use::analysing",
+            ":server",
             "scope::utility",
-            "system::cloud"
+            ":laptop",
+            ":medicine",
+            ":physics",
+            "interface::commandline",
+            "system::cloud",
+            "admin::virtualization",
+            ":biology:bioinformatics",
+            "admin::automation",
+            "works-with-format::TODO",
+            ":filtering"
         ],
         "summary": [
             "Common Workflow Language reference implementation",
@@ -8536,20 +8503,20 @@
             ""
         ],
         "summary": [
-            "simulate the evolution of recombinant DNA sequences",
-            "program to simulate the evolution of recombinant DNA sequences"
+            "program to simulate the evolution of recombinant DNA sequences",
+            "simulate the evolution of recombinant DNA sequences"
         ]
     },
     "roary": {
         "tags": [
+            "use::analysing",
+            "role::program",
             ":commandline",
             "implemented-in::perl",
-            ":comparing",
-            "role::program",
+            "scope::utility",
             "field::biology:bioinformatics",
             "field::biology",
-            "scope::utility",
-            "use::analysing"
+            ":comparing"
         ],
         "summary": [
             "high speed stand alone pan genome pipeline"
@@ -8630,18 +8597,18 @@
     },
     "gentle": {
         "tags": [
-            ":wxwidgets",
-            ":c",
             "biology::peptidic",
-            "uitoolkit::wxwidgets",
-            ":x11",
             "x11::application",
-            "interface::graphical",
-            "interface::commandline",
             "role::program",
+            ":wxwidgets",
+            "uitoolkit::wxwidgets",
+            ":c",
+            "interface::graphical",
             "field::biology:bioinformatics",
+            "interface::x11",
             "field::biology",
-            "interface::x11"
+            "interface::commandline",
+            ":x11"
         ],
         "summary": [
             "suite to plan genetic cloning"
@@ -8657,9 +8624,9 @@
     },
     "profbval": {
         "tags": [
-            "biology::nucleic-acids",
+            "role::debug-symbols",
             "field::biology",
-            "role::debug-symbols"
+            "biology::nucleic-acids"
         ],
         "summary": []
     },
@@ -8673,13 +8640,13 @@
     },
     "acedb-other-dotter": {
         "tags": [
-            "uitoolkit::gtk",
             "x11::application",
-            "interface::graphical",
             "role::program",
             "uitoolkit::ncurses",
+            "interface::graphical",
             "interface::x11",
-            ":ncurses"
+            ":ncurses",
+            "uitoolkit::gtk"
         ],
         "summary": [
             "transitional package for dotter",
@@ -8696,11 +8663,11 @@
     },
     "fastqtl": {
         "tags": [
-            "interface::commandline",
+            "use::analysing",
             ":program",
             "field::biology:bioinformatics",
             "field::biology",
-            "use::analysing"
+            "interface::commandline"
         ],
         "summary": [
             "Quantitative Trait Loci (QTL) mapper in cis for molecular phenotypes"
@@ -8708,13 +8675,13 @@
     },
     "invesalius": {
         "tags": [
-            "field::medicine:imaging",
-            ":x11",
             "x11::application",
-            "interface::graphical",
-            "use::viewing",
             "role::program",
-            "field::medicine"
+            "field::medicine",
+            "field::medicine:imaging",
+            "use::viewing",
+            "interface::graphical",
+            ":x11"
         ],
         "summary": [
             "3D medical imaging reconstruction software"
@@ -8732,11 +8699,11 @@
     },
     "biomaj": {
         "tags": [
-            "implemented-in::java",
-            ":commandline",
             "role::program",
+            ":commandline",
             "field::biology:bioinformatics",
-            "field::biology"
+            "field::biology",
+            "implemented-in::java"
         ],
         "summary": [
             "biological data-bank updater"
@@ -8770,9 +8737,9 @@
         "tags": [
             ":timekeeping",
             "x11::application",
-            "interface::graphical",
             "role::program",
             "field::medicine",
+            "interface::graphical",
             "interface::x11"
         ],
         "summary": [
@@ -8781,22 +8748,22 @@
     },
     "bedtools": {
         "tags": [
-            ":converting",
-            "scope::suite",
+            "use::analysing",
+            "role::program",
             ":commandline",
+            ":biological-sequence",
             "implemented-in::c++",
-            ":filtering",
+            "field::biology:bioinformatics",
+            ":converting",
+            "field::biology",
             ":comparing",
             "Genomics",
-            "role::program",
-            "field::biology:bioinformatics",
-            "field::biology",
-            ":biological-sequence",
-            "use::analysing"
+            "scope::suite",
+            ":filtering"
         ],
         "summary": [
-            "a powerful toolset for genome arithmetic",
-            "suite of utilities for comparing genomic features"
+            "suite of utilities for comparing genomic features",
+            "a powerful toolset for genome arithmetic"
         ]
     },
     "biomaj3": {
@@ -8845,14 +8812,14 @@
     },
     "otf-symbols-circos": {
         "tags": [
-            "made-of::font",
-            "role::data"
+            "role::data",
+            "made-of::font"
         ],
         "summary": [
             "transitional dummy package"
         ]
     },
-    "Zorro": {
+    "zorro": {
         "tags": [
             "Genomics"
         ],
